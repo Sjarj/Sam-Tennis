@@ -1,12 +1,12 @@
 import React from "react"
 import {
-  MDBIcon,
   MDBSideNavCat,
   MDBSideNavNav,
   MDBSideNav,
   MDBContainer,
   MDBRow,
   MDBBtn,
+  MDBIcon,
 } from "mdbreact"
 import CustomLink from "./customLink"
 import { Link } from "@reach/router"
@@ -62,32 +62,41 @@ class SideNavPage extends React.Component {
             </ul>
           </li>
           <MDBSideNavNav>
-            <MDBSideNavCat
-              name="Submit blog"
-              id="submit-blog"
-              icon="chevron-right"
-            >
-              <CustomLink to="/">Submit listing</CustomLink>
-              <CustomLink>Registration form</CustomLink>
-            </MDBSideNavCat>
-            <li>
-              <CustomLink className="collapsible-header">
-                For bloggers
+            <span>
+              <CustomLink className="collapsible-header font-weight-bold">
+                <MDBIcon icon="baseball-ball" className="p-2" />
+                Accueil
               </CustomLink>
-            </li>
-            <MDBSideNavCat name="About" id="about" icon="eye">
-              <CustomLink>Instruction</CustomLink>
-              <CustomLink>Monthly meetings</CustomLink>
-            </MDBSideNavCat>
+            </span>
+            <span>
+              <CustomLink className="collapsible-header font-weight-bold">
+                <MDBIcon icon="store" className="p-2" />
+                Le club
+              </CustomLink>
+            </span>
             <MDBSideNavCat
-              name="Contact me"
-              id="contact-me"
-              iconRegular
-              icon="envelope"
+              name="Les pratiques"
+              id="pratiques"
+              icon="table-tennis"
+              className="font-weight-bold"
             >
-              <CustomLink>FAQ</CustomLink>
-              <CustomLink>Write a message</CustomLink>
+              <CustomLink className="font-weight-bold">Instruction</CustomLink>
+              <CustomLink className="font-weight-bold">
+                Monthly meetings
+              </CustomLink>
             </MDBSideNavCat>
+            <span>
+              <CustomLink className="collapsible-header font-weight-bold">
+                <MDBIcon icon="rss" className="p-2 " />
+                Le blog
+              </CustomLink>
+            </span>
+            <span>
+              <CustomLink className="collapsible-header font-weight-bold">
+                <MDBIcon icon="money-bill-alt" className="p-2" />
+                Les tarifs
+              </CustomLink>
+            </span>
           </MDBSideNavNav>
         </MDBSideNav>
       </MDBContainer>

@@ -40,7 +40,14 @@ class customLink extends Component {
         role="link"
         onClick={() => navigate(to)}
       >
-        <span className="nav-link" style={{ color: `black` }}>
+        <span
+          className="nav-link"
+          style={{
+            color: `#424242 `,
+            fontSize: `13px`,
+            cursor: `pointer`,
+          }}
+        >
           {children}
         </span>
         {!disabled && <MDBWaves cursorPos={cursorPos} />}
