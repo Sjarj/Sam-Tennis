@@ -28,7 +28,7 @@ class SideNavPage extends React.Component {
       <MDBContainer>
         <MDBRow>
           <MDBBtn onClick={this.handleToggle}>
-            <MDBIcon icon="bars" size="5x" />
+            <MDBIcon icon="bars" size="2x" />
           </MDBBtn>
         </MDBRow>
         <MDBSideNav
@@ -80,10 +80,13 @@ class SideNavPage extends React.Component {
               icon="table-tennis"
               className="font-weight-bold"
             >
-              <CustomLink className="font-weight-bold">Instruction</CustomLink>
               <CustomLink className="font-weight-bold">
-                Monthly meetings
+                L'enseignement
               </CustomLink>
+              <CustomLink className="font-weight-bold">
+                La compétition
+              </CustomLink>
+              <CustomLink className="font-weight-bold ">Le loisir</CustomLink>
             </MDBSideNavCat>
             <span>
               <CustomLink className="collapsible-header font-weight-bold">
