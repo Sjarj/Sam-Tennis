@@ -9,7 +9,6 @@ import {
   MDBIcon,
 } from "mdbreact"
 import CustomLink from "./customLink"
-import { Link } from "@reach/router"
 
 class SideNavPage extends React.Component {
   state = {
@@ -31,6 +30,7 @@ class SideNavPage extends React.Component {
             <MDBIcon icon="bars" size="2x" />
           </MDBBtn>
         </MDBRow>
+
         <MDBSideNav
           logo="https://mdbootstrap.com/img/logo/mdb-transparent.png"
           hidden
