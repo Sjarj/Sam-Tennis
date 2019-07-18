@@ -6,7 +6,6 @@ import {
   MDBCarouselItem,
   MDBView,
   MDBMask,
-  MDBContainer,
 } from "mdbreact"
 
 const CarouselPage = () => {
