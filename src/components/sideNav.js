@@ -24,8 +24,8 @@ class SideNavPage extends React.Component {
   render() {
     const { isOpen } = this.state
     return (
-      <MDBContainer style={{ position: `absolute`, zIndex: 0 }}>
-        <MDBRow>
+      <MDBContainer>
+        <MDBRow style={{ position: `absolute`, zIndex: 0 }}>
           <MDBBtn onClick={this.handleToggle}>
             <MDBIcon icon="bars" size="2x" />
           </MDBBtn>
