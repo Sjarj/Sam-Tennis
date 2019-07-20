@@ -4,18 +4,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import CarouselPage from "../components/carousel"
 import Inscription from "../components/inscription"
+import BalleJaune from "../components/balle-jaune"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <CarouselPage />
     <MDBContainer>
-      <h1 className="m-5 text-center">
+      <h2 className="m-5 text-center h2-responsive">
         {" "}
         Bonjour et Bienvenue sur le Site du{" "}
         <span className="blue-text">SAM </span>
         <span className="red-text">TENNIS </span>!
-      </h1>
+      </h2>
       <p>
         Le <span className="blue-text">SAM</span>{" "}
         <span className="red-text"> Tennis</span> est l'une des 28 sections
@@ -40,6 +41,9 @@ const IndexPage = () => (
       <MDBRow>
         <MDBCol lg="6">
           <Inscription />
+        </MDBCol>
+        <MDBCol lg="6">
+          <BalleJaune />
         </MDBCol>
       </MDBRow>
     </MDBContainer>
