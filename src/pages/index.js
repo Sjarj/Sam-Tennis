@@ -1,4 +1,5 @@
 import React from "react"
+import { MDBRow, MDBCol, MDBBadge } from "mdbreact"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -9,7 +10,7 @@ const IndexPage = () => (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div className="container">
           <a className="navbar-brand" href="#">
-            Navbar
+            SAM TENNIS
           </a>
           <button
             className="navbar-toggler"
@@ -26,7 +27,7 @@ const IndexPage = () => (
             <ul className="navbar-nav mr-auto smooth-scroll">
               <li className="nav-item">
                 <a className="nav-link" href="#home">
-                  Home <span className="sr-only">(current)</span>
+                  Accueil <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -82,7 +83,7 @@ const IndexPage = () => (
         className="view jarallax"
         data-jarallax='{"speed": 0.2}'
         style={{
-          backgroundImage: `${`url('https://mdbootstrap.com/img/Photos/Horizontal/Sport/full page/img%20(1).jpg')`}`,
+          backgroundImage: `${`url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')`}`,
           backgroundRepeat: `no-repeat`,
           backgroundSize: `cover`,
           backgroundPosition: `center`,
@@ -94,10 +95,11 @@ const IndexPage = () => (
               <div className="col-md-12">
                 <div className="white-text text-center">
                   <h2 className="display-3 font-weight-bold wow fadeIn">
-                    We're the team
+                    <span className="light-blue-text">SAM </span>
+                    <span className="red-text">TENNIS</span>
                   </h2>
                   <h3 className="wow fadeIn" data-wow-delay="0.2s">
-                    Intro subtext
+                    L'une des 28 sections sportives du SAM OMNISPORTS.
                   </h3>
                   <a
                     href="#about"
@@ -118,40 +120,101 @@ const IndexPage = () => (
       <div className="container">
         <section id="about" className="section py-4">
           <h1 className="section-heading text-center mb-5 my-5 mb-4 font-weight-bold wow fadeIn">
-            About us
+            Nos installations
           </h1>
 
           <div className="row mb-5 wow fadeIn" data-wow-delay="0.2s">
             <div className="col-lg-4 mb-2">
               <img
-                src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(118).jpg"
-                alt="My photo"
+                src="https://images.unsplash.com/photo-1526307616774-60d0098f7642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=472&w=711&q=60"
+                alt="court de tennis"
                 className="z-depth-1 img-fluid"
               />
             </div>
 
             <div className="col-lg-8 mb-2">
               <p className="lead">
-                Professional football team, gentlemans, best friends
+                Nos installations sportives sont sur 2 sites à Mérignac :
               </p>
               <p align="justify">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                  animi soluta ratione quisquam, dicta ab cupiditate iure eaque?
-                  Repellendus voluptatum, magni impedit eaque delectus, beatae
-                  maxime temporibus maiores quibusdam quasi.
-                </span>
-                <span>
-                  Rem magnam ad perferendis iusto sint tempora ea voluptatibus
-                  iure, animi excepturi modi aut possimus in hic molestias
-                  repellendus illo ullam odit quia velit. Qui expedita sit quo,
-                  maxime molestiae.
+                  <span className="light-blue-text">
+                    SITE DE ROBERT BRETTES
+                  </span>{" "}
+                  : Un Club House ouvert 7 jrs / 7 jrs avec{" "}
+                  <strong>8 Cours Extérieurs éclairés </strong> Quartier Pin
+                  Galant - Piscine - Stade :
                 </span>
               </p>
-              <p align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-                sapiente, consequuntur dolore praesentium non suscipit minus
-                repudiandae, nesciunt placeat, vel nostrum.
+              <MDBRow>
+                <MDBCol size="6">
+                  <ul style={{ listStyle: `none`, marginTop: `0.5rem` }}>
+                    <li>
+                      <MDBBadge color="primary" pill>
+                        2
+                      </MDBBadge>{" "}
+                      Courts en <strong>Terre battue </strong>.
+                    </li>
+                    <li>
+                      <MDBBadge color="danger" pill>
+                        4
+                      </MDBBadge>{" "}
+                      Courts en <strong> Quick </strong>
+                    </li>
+                    <li>
+                      <MDBBadge color="primary" pill>
+                        1
+                      </MDBBadge>{" "}
+                      Terrain de Pétanque .
+                    </li>
+                  </ul>
+                </MDBCol>
+                <MDBCol size="6">
+                  <ul style={{ listStyle: `none`, marginTop: `0.5rem` }}>
+                    <li>
+                      <MDBBadge color="danger" pill>
+                        2
+                      </MDBBadge>{" "}
+                      Courts en <strong>Soft </strong> Type de Terre battue.
+                    </li>
+                    <li>
+                      <MDBBadge color="primary" pill>
+                        3
+                      </MDBBadge>{" "}
+                      cours de Mini-Tennis
+                    </li>
+                    <li>
+                      <MDBBadge color="danger" pill>
+                        1
+                      </MDBBadge>{" "}
+                      table de Ping-Pong et Un Baby Foot.
+                    </li>
+                  </ul>
+                </MDBCol>
+              </MDBRow>
+
+              <p align="justify" className="mt-3">
+                <span className="red-text">SITE DE LA ROSERAIE </span> Les Cours
+                Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes en
+                voiture du Stade Robert Brettes, au 23 Avenue du Château d'Eau -
+                33700 Mérignac Quartier Capeyron :
+                <ul style={{ listStyle: `none`, marginTop: `0.9rem` }}>
+                  <li>
+                    <MDBBadge color="danger" pill>
+                      4
+                    </MDBBadge>{" "}
+                    Courts <strong>Couverts</strong> en{" "}
+                    <strong>Terre battue</strong>
+                  </li>
+
+                  <li>
+                    <MDBBadge color="primary" pill>
+                      1
+                    </MDBBadge>{" "}
+                    <strong>Restaurant</strong> de 65 couverts, ouvert du Lundi
+                    au Samedi, midis et soirs, à prix raisonnables.
+                  </li>
+                </ul>
               </p>
             </div>
           </div>
