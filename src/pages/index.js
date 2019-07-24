@@ -32,17 +32,17 @@ const IndexPage = () => (
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about" data-offset="30">
-                  About
+                  Installations
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#team" data-offset="30">
-                  Team
+                  Équipe
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#timetable" data-offset="100">
-                  Timetable
+                  Disciplines
                 </a>
               </li>
               <li className="nav-item">
@@ -156,7 +156,7 @@ const IndexPage = () => (
                       Courts en <strong>Terre battue </strong>.
                     </li>
                     <li>
-                      <MDBBadge color="danger" pill>
+                      <MDBBadge color="primary" pill>
                         4
                       </MDBBadge>{" "}
                       Courts en <strong> Quick </strong>
@@ -172,7 +172,7 @@ const IndexPage = () => (
                 <MDBCol size="6">
                   <ul style={{ listStyle: `none`, marginTop: `0.5rem` }}>
                     <li>
-                      <MDBBadge color="danger" pill>
+                      <MDBBadge color="primary" pill>
                         2
                       </MDBBadge>{" "}
                       Courts en <strong>Soft </strong> Type de Terre battue.
@@ -181,23 +181,23 @@ const IndexPage = () => (
                       <MDBBadge color="primary" pill>
                         3
                       </MDBBadge>{" "}
-                      cours de Mini-Tennis
+                      Courts de Mini-Tennis
                     </li>
                     <li>
-                      <MDBBadge color="danger" pill>
+                      <MDBBadge color="primary" pill>
                         1
                       </MDBBadge>{" "}
-                      table de Ping-Pong et Un Baby Foot.
+                      Table de Ping-Pong et Un Baby Foot.
                     </li>
                   </ul>
                 </MDBCol>
               </MDBRow>
 
               <p align="justify" className="mt-3">
-                <span className="red-text">SITE DE LA ROSERAIE </span> Les Cours
-                Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes en
-                voiture du Stade Robert Brettes, au 23 Avenue du Château d'Eau -
-                33700 Mérignac Quartier Capeyron :
+                <span className="red-text">SITE DE LA ROSERAIE </span> : Les
+                Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes
+                en voiture du Stade Robert Brettes, au 23 Avenue du Château
+                d'Eau - 33700 Mérignac Quartier Capeyron :
                 <ul style={{ listStyle: `none`, marginTop: `0.9rem` }}>
                   <li>
                     <MDBBadge color="danger" pill>
@@ -208,7 +208,7 @@ const IndexPage = () => (
                   </li>
 
                   <li>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="danger" pill>
                       1
                     </MDBBadge>{" "}
                     <strong>Restaurant</strong> de 65 couverts, ouvert du Lundi
@@ -222,15 +222,15 @@ const IndexPage = () => (
       </div>
 
       <div
-        className="streak streak-photo streak-md"
+        className="streak streak-photo streak-md mask"
         style={{
-          backgroundImage: `${`url('https://mdbootstrap.com/img/Photos/Horizontal/Sport/8-col/img%20(1).jpg')`}`,
+          backgroundImage: `${`url('https://images.unsplash.com/photo-1558365849-6ebd8b0454b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60  )`}`,
         }}
       >
-        <div className="flex-center rgba-teal-light mask">
+        <div className="flex-center rgba-teal-strong mask">
           <div className="white-text smooth-scroll">
             <h2 className="h2-responsive mb-5 wow fadeIn">
-              See our team in action
+              Les différentes disciplines du club
             </h2>
             <div className="text-center">
               <a
@@ -239,7 +239,7 @@ const IndexPage = () => (
                 data-offset="100"
                 data-wow-delay="0.2s"
               >
-                See the timetable
+                Voir les pratiques
               </a>
             </div>
           </div>
