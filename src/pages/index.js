@@ -2,6 +2,7 @@ import React from "react"
 import { MDBRow, MDBCol, MDBBadge } from "mdbreact"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Pills from "../components/pills"
 
 const IndexPage = () => (
   <Layout>
@@ -106,7 +107,7 @@ const IndexPage = () => (
                     className="btn btn-outline-white wow fadeIn"
                     data-wow-delay="0.4s"
                   >
-                    Meet our team
+                    Rencontre notre équipe
                   </a>
                 </div>
               </div>
@@ -305,99 +306,19 @@ const IndexPage = () => (
             className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
             data-wow-delay="0.2s"
           >
-            Timetable
+            Les pratiques
           </h1>
 
           <p className="text-center w-responsive mx-auto wow fadeIn my-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste
-            provident, voluptatum voluptatibus aut modi aspernatur autem
-            impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur
-            laborum magni earum. At, officiis!
+            Le club <span className="light-blue-text">SAM</span>
+            <span className="red-text"> TENNIS</span> offre la possibilité aux
+            adhérents différents aspetcs de la pratiques du tennis de
+            l'enseignement à la compétition en passant par le loisir .
           </p>
 
           <div className="row wow fadeIn" data-wow-delay="0.4s">
             <div className="col-md-12">
-              <div className="table-responsive">
-                <table className="table timetable">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <strong>Tue 18</strong>
-                      </td>
-                      <td>
-                        <strong>20:45</strong>
-                      </td>
-                      <td>Legia Warszawa</td>
-                      <td>From 25&euro;</td>
-                      <td className="smooth-scroll">
-                        <a className="btn btn-primary" href="#tickets">
-                          Buy ticket
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>Sun 23</strong>
-                      </td>
-                      <td>
-                        <strong>20:45</strong>
-                      </td>
-                      <td>Athletic</td>
-                      <td>From 25&euro;</td>
-                      <td className="smooth-scroll">
-                        <a className="btn btn-primary" href="#tickets">
-                          Buy ticket
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>06.11</strong>
-                      </td>
-                      <td>
-                        <strong>12:00</strong>
-                      </td>
-                      <td>Leganés</td>
-                      <td>From 25&euro;</td>
-                      <td className="smooth-scroll">
-                        <a className="btn btn-primary" href="#tickets">
-                          Buy ticket
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>26.11</strong>
-                      </td>
-                      <td>
-                        <strong>16:45</strong>
-                      </td>
-                      <td>Sporting</td>
-                      <td>From 25&euro;</td>
-                      <td className="smooth-scroll">
-                        <a className="btn btn-primary" href="#tickets">
-                          Buy ticket
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>07.11</strong>
-                      </td>
-                      <td>
-                        <strong>20:45</strong>
-                      </td>
-                      <td>Borussia Dortmund</td>
-                      <td>From 45&euro;</td>
-                      <td className="smooth-scroll">
-                        <a className="btn btn-primary" href="#tickets">
-                          Buy ticket
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <Pills />
             </div>
           </div>
         </section>
