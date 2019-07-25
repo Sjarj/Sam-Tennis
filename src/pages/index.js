@@ -137,7 +137,7 @@ const IndexPage = () => (
               <p className="lead">
                 Nos installations sportives sont sur 2 sites à Mérignac :
               </p>
-              <p align="justify">
+              <p align="justify" className="">
                 <span>
                   <span className="light-blue-text">
                     SITE DE ROBERT BRETTES
@@ -149,7 +149,10 @@ const IndexPage = () => (
               </p>
               <MDBRow>
                 <MDBCol size="6">
-                  <ul style={{ listStyle: `none`, marginTop: `0.5rem` }}>
+                  <ul
+                    style={{ listStyle: `none`, marginTop: `0.5rem` }}
+                    className=""
+                  >
                     <li>
                       <MDBBadge color="primary" pill>
                         2
@@ -171,7 +174,10 @@ const IndexPage = () => (
                   </ul>
                 </MDBCol>
                 <MDBCol size="6">
-                  <ul style={{ listStyle: `none`, marginTop: `0.5rem` }}>
+                  <ul
+                    style={{ listStyle: `none`, marginTop: `0.5rem` }}
+                    className=""
+                  >
                     <li>
                       <MDBBadge color="primary" pill>
                         2
@@ -194,7 +200,7 @@ const IndexPage = () => (
                 </MDBCol>
               </MDBRow>
 
-              <p align="justify" className="mt-3">
+              <p align="justify" className="mt-3 ">
                 <span className="red-text">SITE DE LA ROSERAIE </span> : Les
                 Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes
                 en voiture du Stade Robert Brettes, au 23 Avenue du Château
@@ -459,7 +465,7 @@ const IndexPage = () => (
 
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
-                <a href="#!" className="text-muted grey-text font-weight-bold">
+                <a href="#!" className="text-muted  font-weight-bold">
                   | 23 MAY 2017
                 </a>
               </h6>
@@ -468,7 +474,7 @@ const IndexPage = () => (
                   This is title of the news
                 </a>
               </h4>
-              <p className="grey-text-3 font-thin" align="justify">
+              <p className="-3 font-thin" align="justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -491,7 +497,7 @@ const IndexPage = () => (
 
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
-                <a href="#!" className="text-muted grey-text font-weight-bold">
+                <a href="#!" className="text-muted  font-weight-bold">
                   | 23 MAY 2017
                 </a>
               </h6>
@@ -500,7 +506,7 @@ const IndexPage = () => (
                   This is title of the news
                 </a>
               </h4>
-              <p className="grey-text-3 font-thin" align="justify">
+              <p className="-3 font-thin" align="justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -523,10 +529,7 @@ const IndexPage = () => (
 
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
-                <a
-                  href="#!"
-                  className="text-muted grey-text font-weight-bold pb-1"
-                >
+                <a href="#!" className="text-muted  font-weight-bold pb-1">
                   | 31 JUN 2017
                 </a>
               </h6>
@@ -535,7 +538,7 @@ const IndexPage = () => (
                   This is title of the news
                 </a>
               </h4>
-              <p className="grey-text-3 font-thin" align="justify">
+              <p className="-3 font-thin" align="justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
