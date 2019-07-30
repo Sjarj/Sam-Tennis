@@ -256,17 +256,19 @@ const IndexPage = () => (
       <div className="container">
         <section id="team" className="section team-section pt-3">
           <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn">
-            Our team
+            Notre équipe
           </h1>
 
           <p
             className="text-center w-responsive mx-auto wow fadeIn my-5"
             data-wow-delay="0.2s"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-            maiores aspernatur aut animi debitis. Ad excepturi dolor tempora at
-            aperiam earum veritatis ullam. Culpa tempora possimus necessitatibus
-            excepturi, quisquam officia.
+            Est composée d'un comité directeur, d'administratifs ayant en charge
+            l'accueil de nos adhérents pour les inscriptions, la réservation et
+            la pratique de nos différentes activités. Des Techniciens ayant en
+            charge l'enseignement du Tennis à tous les niveaux et,
+            l'entrainement et l'encadrement de nos compétiteurs individuels et
+            de nos équipes :
           </p>
 
           <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
