@@ -149,55 +149,45 @@ const IndexPage = () => (
                 </span>
               </p>
               <MDBRow>
-                <MDBCol size="6">
-                  <ul
-                    style={{ listStyle: `none`, marginTop: `0.5rem` }}
-                    className=""
-                  >
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        2
-                      </MDBBadge>{" "}
-                      Courts en <strong>Terre battue </strong>.
-                    </li>
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        4
-                      </MDBBadge>{" "}
-                      Courts en <strong> Quick </strong>
-                    </li>
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        1
-                      </MDBBadge>{" "}
-                      Terrain de Pétanque .
-                    </li>
-                  </ul>
+                <MDBCol size="6" className="my-2">
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      2
+                    </MDBBadge>{" "}
+                    Courts en <strong>Terre battue </strong>.
+                  </div>
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      4
+                    </MDBBadge>{" "}
+                    Courts en <strong> Quick </strong>.
+                  </div>
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      1
+                    </MDBBadge>{" "}
+                    Terrain de Pétanque .
+                  </div>
                 </MDBCol>
-                <MDBCol size="6">
-                  <ul
-                    style={{ listStyle: `none`, marginTop: `0.5rem` }}
-                    className=""
-                  >
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        2
-                      </MDBBadge>{" "}
-                      Courts en <strong>Soft </strong> Type de Terre battue.
-                    </li>
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        3
-                      </MDBBadge>{" "}
-                      Courts de Mini-Tennis
-                    </li>
-                    <li>
-                      <MDBBadge color="primary" pill>
-                        1
-                      </MDBBadge>{" "}
-                      Table de Ping-Pong et Un Baby Foot.
-                    </li>
-                  </ul>
+                <MDBCol size="6" className="my-2">
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      2
+                    </MDBBadge>{" "}
+                    Courts en <strong>Soft </strong> Type de Terre battue.
+                  </div>
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      3
+                    </MDBBadge>{" "}
+                    Courts de Mini-Tennis.
+                  </div>
+                  <div style={{ lineHeight: 1.8 }}>
+                    <MDBBadge color="primary" pill>
+                      1
+                    </MDBBadge>{" "}
+                    Table de Ping-Pong et Un Baby Foot.
+                  </div>
                 </MDBCol>
               </MDBRow>
 
