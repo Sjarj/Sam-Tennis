@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Pills from "../components/pills"
 import SliderTeam from "../components/sliderTeam"
+import SliderPrice from "../components/sliderPrice"
 
 const IndexPage = () => (
   <Layout>
@@ -298,7 +299,7 @@ const IndexPage = () => (
             className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
             data-wow-delay="0.2s"
           >
-            Tickets
+            Tarifs
           </h1>
 
           <p className="text-center w-responsive mx-auto wow fadeIn my-5">
@@ -309,96 +310,7 @@ const IndexPage = () => (
           </p>
 
           <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
-            <div className="col-lg-4 col-md-12 mb-5">
-              <div className="pricing-card naked-card">
-                <div className="card-body">
-                  <h5 className="font-weight-bold mt-3">Basic</h5>
-
-                  <div className="price pt-0">
-                    <h2 className="number mb-0">10</h2>
-                  </div>
-
-                  <ul className="striped darker-striped">
-                    <li>
-                      <p>East side</p>
-                    </li>
-                    <li>
-                      <p>West side</p>
-                    </li>
-                    <li>
-                      <p>North side</p>
-                    </li>
-                    <li>
-                      <p>South side</p>
-                    </li>
-                  </ul>
-                  <a className="btn btn-primary btn-lg"> Buy ticket</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-12 mb-5">
-              <div
-                className="card card-image pricing-card"
-                style={{
-                  backgroundImage: `${`url('https://mdbootstrap.com/img/Photos/Others/img%20(26).jpg')`}`,
-                }}
-              >
-                <div className="text-white text-center pricing-card d-flex align-items-center rgba-black-light py-3 px-3 rounded">
-                  <div className="card-body">
-                    <h5 className="font-weight-bold mt-2">Pro</h5>
-
-                    <div className="price pt-0">
-                      <h2 className="number mb-0">20</h2>
-                    </div>
-
-                    <ul className="striped">
-                      <li>
-                        <p>East side</p>
-                      </li>
-                      <li>
-                        <p>West side</p>
-                      </li>
-                      <li>
-                        <p>North side</p>
-                      </li>
-                      <li>
-                        <p>South side</p>
-                      </li>
-                    </ul>
-                    <a className="btn btn-lg btn-outline-white"> Buy ticket</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-12 mb-5">
-              <div className="pricing-card naked-card">
-                <div className="card-body">
-                  <h5 className="font-weight-bold mt-3">VIP</h5>
-
-                  <div className="price pt-0">
-                    <h2 className="number mb-0">30</h2>
-                  </div>
-
-                  <ul className="striped darker-striped">
-                    <li>
-                      <p>East side</p>
-                    </li>
-                    <li>
-                      <p>West side</p>
-                    </li>
-                    <li>
-                      <p>North side</p>
-                    </li>
-                    <li>
-                      <p>South side</p>
-                    </li>
-                  </ul>
-                  <a className="btn btn-primary btn-lg"> Buy ticket</a>
-                </div>
-              </div>
-            </div>
+            <SliderPrice/>
           </div>
         </section>
 
