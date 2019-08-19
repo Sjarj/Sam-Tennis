@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Pills from "../components/pills"
 import SliderTeam from "../components/sliderTeam"
-// import TabPrices from "../components/tabPrices"
+import TabPrices from "../components/tabPrices"
 
 const IndexPage = () => (
   <Layout>
@@ -310,7 +310,7 @@ const IndexPage = () => (
           </p>
 
           <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
-            {/* <TabPrices /> */}
+            <TabPrices />
           </div>
         </section>
 
