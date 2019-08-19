@@ -1,115 +1,112 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import {
   MDBContainer,
-  MDBTabPane,
-  MDBTabContent,
+  MDBRow,
+  MDBCol,
   MDBNav,
   MDBNavItem,
-  MDBIcon,
+  MDBTabContent,
+  MDBTabPane,
 } from "mdbreact"
 
-class TabPrices extends Component {
+class tabPrices extends Component {
   state = {
-    activeItemJustified: "1",
+    items: {
+      default: "1",
+    },
   }
 
-  toggleJustified = tab => e => {
-    if (this.state.activeItemJustified !== tab) {
+  toggleTabs = (type, tab) => e => {
+    e.preventDefault()
+    if (this.state.items[type] !== tab) {
+      let items = { ...this.state.items }
+      items[type] = tab
       this.setState({
-        activeItemJustified: tab,
+        items,
       })
     }
   }
-
   render() {
     return (
-      <MDBContainer>
-        <MDBNav tabs className="nav-justified" color="indigo">
-          <MDBNavItem>
-            <Link
-              to="/"
-              className={`nav-link Ripple-parent ${
-                this.state.activeItemJustified === "1" ? "active" : ""
-              }`}
-              onClick={this.toggleJustified("1")}
-              role="tab"
-            >
-              <MDBIcon icon="user" /> Profile
-            </Link>
-          </MDBNavItem>
-          <MDBNavItem>
-            <Link
-              to="/"
-              className={`nav-link Ripple-parent ${
-                this.state.activeItemJustified === "2" ? "active" : ""
-              }`}
-              onClick={this.toggleJustified("2")}
-              role="tab"
-            >
-              <MDBIcon icon="heart" /> Follow
-            </Link>
-          </MDBNavItem>
-          <MDBNavItem>
-            <Link
-              to="/"
-              className={`nav-link Ripple-parent ${
-                this.state.activeItemJustified === "3" ? "active" : ""
-              }`}
-              onClick={this.toggleJustified("3")}
-              role="tab"
-            >
-              <MDBIcon icon="envelope" /> Contact
-            </Link>
-          </MDBNavItem>
-        </MDBNav>
-        <MDBTabContent
-          className="card"
-          activeItem={this.state.activeItemJustified}
-        >
-          <MDBTabPane tabId="1" role="tabpanel">
-            <p className="mt-2">
-              Raw denim you probably haven't heard of them jean shorts Austin.
-              Nesciunt tofu stumptown aliqua, retro synth master cleanse.
-              Mustache cliche tempor, williamsburg carles vegan helvetica.
-              Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby
-              sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
-              placeat salvia cillum iphone. Seitan aliquip quis cardigan
-              american apparel, butcher voluptate nisi qui.
-            </p>
-          </MDBTabPane>
-          <MDBTabPane tabId="2" role="tabpanel">
-            <p className="mt-2">
-              Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-              single-origin coffee squid. Exercitation +1 labore velit, blog
-              sartorial PBR leggings next level wes anderson artisan four loko
-              farm-to-table craft beer twee. Qui photo booth letterpress,
-              commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-              vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic
-              magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna
-              velit sapiente labore stumptown. Vegan fanny pack odio cillum wes
-              anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa
-              terry richardson biodiesel. Art party scenester stumptown, tumblr
-              butcher vero sint qui sapiente accusamus tattooed echo park.
-            </p>
-          </MDBTabPane>
-          <MDBTabPane tabId="3" role="tabpanel">
-            <p className="mt-2">
-              Etsy mixtape wayfarers, ethical wes anderson tofu before they sold
-              out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table
-              readymade. Messenger bag gentrify pitchfork tattooed craft beer,
-              iphone skateboard locavore carles etsy salvia banksy hoodie
-              helvetica. DIY synth PBR banksy irony. Leggings gentrify squid
-              8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free,
-              carles pitchfork biodiesel fixie etsy retro mlkshk vice blog.
-              Scenester cred you probably haven't heard of them, vinyl craft
-              beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
-            </p>
-          </MDBTabPane>
-        </MDBTabContent>
+      <MDBContainer className="mt-4">
+        <MDBRow>
+          <MDBCol md="12">
+            <h2>Default</h2>
+            <MDBNav tabs className="mt-5 nav-justified" color="danger">
+              <MDBNavItem
+                className={`nav-link ${
+                  this.state.items["default"] === "1" ? "active" : ""
+                }`}
+                onClick={this.toggleTabs("default", "1")}
+              >
+                Home
+              </MDBNavItem>
+              <MDBNavItem
+                className={`nav-link ${
+                  this.state.items["default"] === "2" ? "active" : ""
+                }`}
+                onClick={this.toggleTabs("default", "2")}
+              >
+                Profile
+              </MDBNavItem>
+              <MDBNavItem
+                className={`nav-link ${
+                  this.state.items["default"] === "3" ? "active" : ""
+                }`}
+                onClick={this.toggleTabs("default", "3")}
+              >
+                Contact
+              </MDBNavItem>
+            </MDBNav>
+            <MDBTabContent activeItem={this.state.items["default"]}>
+              <MDBTabPane tabId="1">
+                <p>
+                  Consequat occaecat ullamco amet non eiusmod nostrud dolore
+                  irure incididunt est duis anim sunt officia. Fugiat velit
+                  proident aliquip nisi incididunt nostrud exercitation proident
+                  est nisi. Irure magna elit commodo anim ex veniam culpa
+                  eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod
+                  consequat eu adipisicing minim anim aliquip cupidatat culpa
+                  excepteur quis. Occaecat sit eu exercitation irure Lorem
+                  incididunt nostrud.
+                </p>
+              </MDBTabPane>
+              <MDBTabPane tabId="2">
+                <p>
+                  Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa
+                  mollit commodo mollit ex. Aute sunt incididunt amet commodo
+                  est sint nisi deserunt pariatur do. Aliquip ex eiusmod
+                  voluptate exercitation cillum id incididunt elit sunt. Qui
+                  minim sit magna Lorem id et dolore velit Lorem amet
+                  exercitation duis deserunt. Anim id labore elit adipisicing ut
+                  in id occaecat pariatur ut ullamco ea tempor duis.
+                </p>
+              </MDBTabPane>
+              <MDBTabPane tabId="3">
+                <p>
+                  Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem
+                  excepteur aliquip dolor aliqua irure ex. Nulla ut duis ipsum
+                  nisi elit fugiat commodo sunt reprehenderit laborum veniam eu
+                  veniam. Eiusmod minim exercitation fugiat irure ex labore
+                  incididunt do fugiat commodo aliquip sit id deserunt
+                  reprehenderit aliquip nostrud. Amet ex cupidatat excepteur
+                  aute veniam incididunt mollit cupidatat esse irure officia
+                  elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit
+                  labore ipsum laboris ipsum commodo sunt tempor enim
+                  incididunt. Commodo quis sunt dolore aliquip aute tempor irure
+                  magna enim minim reprehenderit. Ullamco consectetur culpa
+                  veniam sint cillum aliqua incididunt velit ullamco sunt
+                  ullamco quis quis commodo voluptate. Mollit nulla nostrud
+                  adipisicing aliqua cupidatat aliqua pariatur mollit voluptate
+                  voluptate consequat non.
+                </p>
+              </MDBTabPane>
+            </MDBTabContent>
+          </MDBCol>
+        </MDBRow>
       </MDBContainer>
     )
   }
 }
 
-export default TabPrices
+export default tabPrices
