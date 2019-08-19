@@ -415,7 +415,7 @@ class Pills extends Component {
                       </li>
                       <li>
                         <p>
-                          <strong> Benjamin CATTAN </strong>: : 06.59.36.19.76
+                          <strong> Benjamin CATTAN </strong>: 06.59.36.19.76
                           maitrecat@hotmail.com
                         </p>
                       </li>
