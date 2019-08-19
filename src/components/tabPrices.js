@@ -32,7 +32,7 @@ class TabPrices extends Component {
         <MDBRow>
           <MDBCol md="12">
             <h2>Default</h2>
-            <MDBNav tabs className="mt-5 nav-justified" color="">
+            <MDBNav tabs className="mt-5 nav-justified" color="danger">
               <MDBNavItem
                 className={`nav-link ${
                   this.state.items["default"] === "1" ? "active" : ""
