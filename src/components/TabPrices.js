@@ -9,7 +9,7 @@ import {
   MDBTabPane,
 } from "mdbreact"
 
-class tabPrices extends Component {
+class TabPrices extends Component {
   state = {
     items: {
       default: "1",
@@ -109,4 +109,4 @@ class tabPrices extends Component {
   }
 }
 
-export default tabPrices
+export default TabPrices
