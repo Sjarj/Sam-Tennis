@@ -67,36 +67,61 @@ class TabPrices extends Component {
             </MDBNav>
             <MDBTabContent activeItem={this.state.items["default"]}>
               <MDBTabPane tabId="1">
-                <ul style={{ listStyle: `none` }}>
-                  <li style={{ lineHeight: `3rem` }}>
-                    Adultes <span className="light-blue-text">196 €</span>
-                  </li>
-                  <li style={{ lineHeight: `3rem` }}>
-                    Couples
-                    <span className="red-text"> 310 €</span>
-                  </li>{" "}
-                  <li style={{ lineHeight: `3rem` }}>
-                    Supplément Roseraie 4 courts couverts en terre battue :
-                    Adulte <span className="light-blue-text">96 € </span>,
-                    Couple <span className="red-text"> 142 €</span>
-                  </li>
-                  <li style={{ lineHeight: `3rem` }}>
-                    Jeunes <span className="light-blue-text">117 €</span>{" "}
-                  </li>{" "}
-                  <li style={{ lineHeight: `3rem` }}>
-                    Etudiants <span className="red-text"> 148 €</span>
-                  </li>
-                </ul>
+                <p className="mt-3">
+                  Adultes <span className="light-blue-text">196 €</span>
+                </p>
+                <p>
+                  Couples
+                  <span className="red-text"> 310 €</span>
+                </p>{" "}
+                <p>
+                  Supplément Roseraie 4 courts couverts en terre battue : Adulte{" "}
+                  <span className="light-blue-text">96 € </span> , Couple{" "}
+                  <span className="red-text"> 142 €</span>
+                </p>
+                <p>
+                  Jeunes <span className="light-blue-text">117 €</span>{" "}
+                </p>{" "}
+                <p>
+                  Etudiants <span className="red-text"> 148 €</span>
+                </p>
+                <p className="red-text">
+                  Les forfaits comprennent la licence incluse
+                </p>
               </MDBTabPane>
               <MDBTabPane tabId="2">
+                <p className="mt-3">
+                  Enfants nés en 2014-2015 <br />1 heure par semaine{" "}
+                  <span className="light-blue-text">158 €</span> <br />2 heures
+                  par semaine <span className="light-blue-text">287 €</span>
+                </p>
                 <p>
-                  Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa
-                  mollit commodo mollit ex. Aute sunt incididunt amet commodo
-                  est sint nisi deserunt pariatur do. Aliquip ex eiusmod
-                  voluptate exercitation cillum id incididunt elit sunt. Qui
-                  minim sit magna Lorem id et dolore velit Lorem amet
-                  exercitation duis deserunt. Anim id labore elit adipisicing ut
-                  in id occaecat pariatur ut ullamco ea tempor duis.
+                  Enfants nés en 2012-2013
+                  <br /> 1 heure par semaine{" "}
+                  <span className="red-text"> 196 €</span> <br />2 heures par
+                  semaine
+                  <span className="red-text"> 358 €</span>
+                </p>
+                <p>
+                  Enfants nés en 2010-2011 <br />1 heure par semaine{" "}
+                  <span className="light-blue-text">236 € </span>
+                  <br /> 2 heures par semaine{" "}
+                  <span className="light-blue-text">420 €</span>
+                </p>
+                <p>
+                  Enfants nés en 2008-2009
+                  <br /> 1 heure par semaine{" "}
+                  <span className="red-text">273 € </span>
+                  <br /> 2 heures par semaine{" "}
+                  <span className="red-text">489 €</span>
+                </p>
+                <p>
+                  <span className="red-text">
+                    De 2008 à 2015 inclus, 30 séances, Licence et Cotisation
+                    Jeune incluses{" "}
+                  </span>
+                  . Mercredi matin, Mercredi après-midi, Samedi après-midi sur
+                  les courts couverts de la Roseraie.
                 </p>
               </MDBTabPane>
               <MDBTabPane tabId="3">
