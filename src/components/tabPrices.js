@@ -31,7 +31,6 @@ class TabPrices extends Component {
       <MDBContainer className="mt-4">
         <MDBRow>
           <MDBCol md="12">
-            <h2>Default</h2>
             <MDBNav tabs className="mt-5 nav-justified" color="danger">
               <MDBNavItem
                 className={`nav-link ${
@@ -39,7 +38,7 @@ class TabPrices extends Component {
                 }`}
                 onClick={this.toggleTabs("default", "1")}
               >
-                Home
+                Tarifs
               </MDBNavItem>
               <MDBNavItem
                 className={`nav-link ${
@@ -47,7 +46,7 @@ class TabPrices extends Component {
                 }`}
                 onClick={this.toggleTabs("default", "2")}
               >
-                Profile
+                ÉCOLE DE TENNIS
               </MDBNavItem>
               <MDBNavItem
                 className={`nav-link ${
@@ -55,21 +54,39 @@ class TabPrices extends Component {
                 }`}
                 onClick={this.toggleTabs("default", "3")}
               >
-                Contact
+                COURS COLLECTIFS JEUNES
+              </MDBNavItem>
+              <MDBNavItem
+                className={`nav-link ${
+                  this.state.items["default"] === "4" ? "active" : ""
+                }`}
+                onClick={this.toggleTabs("default", "4")}
+              >
+                AUTRES
               </MDBNavItem>
             </MDBNav>
             <MDBTabContent activeItem={this.state.items["default"]}>
               <MDBTabPane tabId="1">
-                <p>
-                  Consequat occaecat ullamco amet non eiusmod nostrud dolore
-                  irure incididunt est duis anim sunt officia. Fugiat velit
-                  proident aliquip nisi incididunt nostrud exercitation proident
-                  est nisi. Irure magna elit commodo anim ex veniam culpa
-                  eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod
-                  consequat eu adipisicing minim anim aliquip cupidatat culpa
-                  excepteur quis. Occaecat sit eu exercitation irure Lorem
-                  incididunt nostrud.
-                </p>
+                <ul style={{ listStyle: `none` }}>
+                  <li style={{ lineHeight: `3rem` }}>
+                    Adultes <span className="light-blue-text">196 €</span>
+                  </li>
+                  <li style={{ lineHeight: `3rem` }}>
+                    Couples
+                    <span className="red-text"> 310 €</span>
+                  </li>{" "}
+                  <li style={{ lineHeight: `3rem` }}>
+                    Supplément Roseraie 4 courts couverts en terre battue :
+                    Adulte <span className="light-blue-text">96 € </span>,
+                    Couple <span className="red-text"> 142 €</span>
+                  </li>
+                  <li style={{ lineHeight: `3rem` }}>
+                    Jeunes <span className="light-blue-text">117 €</span>{" "}
+                  </li>{" "}
+                  <li style={{ lineHeight: `3rem` }}>
+                    Etudiants <span className="red-text"> 148 €</span>
+                  </li>
+                </ul>
               </MDBTabPane>
               <MDBTabPane tabId="2">
                 <p>
