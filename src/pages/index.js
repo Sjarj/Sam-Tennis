@@ -2,7 +2,7 @@ import React from "react"
 import { MDBRow, MDBCol, MDBBadge } from "mdbreact"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Pills from "../components/pills"
+import PillsPractices from "../components/pillsPtractices"
 import SliderTeam from "../components/sliderTeam"
 import TabPrices from "../components/tabPrices"
 
@@ -287,7 +287,7 @@ const IndexPage = () => (
 
           <div className="row wow fadeIn" data-wow-delay="0.4s">
             <div className="col-md-12">
-              <Pills />
+              <PillsPractices />
             </div>
           </div>
         </section>

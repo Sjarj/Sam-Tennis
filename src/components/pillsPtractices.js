@@ -14,7 +14,7 @@ import {
   MDBMedia,
 } from "mdbreact"
 
-class Pills extends Component {
+class PillsPractices extends Component {
   state = {
     items: {
       default: "1",
@@ -288,7 +288,7 @@ class Pills extends Component {
             </p>
 
             <div className="row wow fadeIn" data-wow-delay="0.4s">
-              <div className="col-lg-3 col-md-6 mb-5">
+              <div className="col-lg-3 col-md-3 mb-5">
                 <div className="card pricing-card mb-2">
                   <div className="price mb-1">
                     <div className="version header grey-color">
@@ -310,7 +310,7 @@ class Pills extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3col-md-12 mb-5">
+              <div className="col-lg-3 col-md-3 mb-5">
                 <div className="card pricing-card">
                   <div className="price mb-1">
                     <div className="version header grey-color">
@@ -345,7 +345,7 @@ class Pills extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-6 mb-5">
+              <div className="col-lg-3 col-md-3 mb-5">
                 <div className="card pricing-card">
                   <div className="price mb-1">
                     <div className="version header grey-color">
@@ -386,7 +386,7 @@ class Pills extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-md-6 mb-5">
+              <div className="col-lg-3 col-md-3 mb-5">
                 <div className="card pricing-card mb-2">
                   <div className="price mb-1">
                     <div className="version header grey-color">
@@ -451,4 +451,4 @@ class Pills extends Component {
   }
 }
 
-export default Pills
+export default PillsPractices
