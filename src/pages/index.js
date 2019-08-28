@@ -98,8 +98,8 @@ const IndexPage = () => (
               <div className="col-md-12">
                 <div className="white-text text-center">
                   <h2 className="display-3 font-weight-bold wow fadeIn">
-                    <span className="light-blue-text">SAM </span>
-                    <span className="red-text">TENNIS</span>
+                    <strong className="light-blue-text">SAM </strong>
+                    <strong className="red-text">TENNIS</strong>
                   </h2>
                   <h3 className="wow fadeIn" data-wow-delay="0.2s">
                     L'une des 28 sections sportives du SAM OMNISPORTS.
@@ -120,7 +120,7 @@ const IndexPage = () => (
     </header>
 
     <main>
-      <div className="container">
+      <div className="container ">
         <section id="about" className="section py-4">
           <h1 className="section-heading text-center mb-5 my-5 mb-4 font-weight-bold wow fadeIn">
             Nos installations
@@ -141,12 +141,14 @@ const IndexPage = () => (
               </p>
               <p align="justify" className="">
                 <span>
-                  <span className="light-blue-text">
+                  <strong className="light-blue-text">
                     SITE DE ROBERT BRETTES
-                  </span>{" "}
+                  </strong>{" "}
                   : Un Club House ouvert 7 jrs / 7 jrs avec{" "}
-                  <strong>8 Cours Extérieurs éclairés </strong> Quartier Pin
-                  Galant - Piscine - Stade :
+                  <strong className="red-text">
+                    8 Cours Extérieurs éclairés{" "}
+                  </strong>{" "}
+                  Quartier Pin Galant - Piscine - Stade :
                 </span>
               </p>
               <MDBRow>
@@ -155,13 +157,15 @@ const IndexPage = () => (
                     <MDBBadge color="primary" pill>
                       2
                     </MDBBadge>{" "}
-                    Courts en <strong>Terre battue </strong>.
+                    Courts en{" "}
+                    <strong className="light-blue-text">Terre battue </strong>.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
                     <MDBBadge color="primary" pill>
                       4
                     </MDBBadge>{" "}
-                    Courts en <strong> Quick </strong>.
+                    Courts en{" "}
+                    <strong className="light-blue-text"> Quick </strong>.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
                     <MDBBadge color="primary" pill>
@@ -175,7 +179,8 @@ const IndexPage = () => (
                     <MDBBadge color="primary" pill>
                       2
                     </MDBBadge>{" "}
-                    Courts en <strong>Soft </strong> Type de Terre battue.
+                    Courts en <strong className="light-blue-text">Soft </strong>{" "}
+                    Type de Terre battue.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
                     <MDBBadge color="primary" pill>
@@ -193,7 +198,7 @@ const IndexPage = () => (
               </MDBRow>
 
               <p align="justify" className="mt-3 ">
-                <span className="red-text">SITE DE LA ROSERAIE </span> : Les
+                <strong className="red-text">SITE DE LA ROSERAIE </strong> : Les
                 Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes
                 en voiture du Stade Robert Brettes, au 23 Avenue du Château
                 d'Eau - 33700 Mérignac Quartier Capeyron :
@@ -202,16 +207,17 @@ const IndexPage = () => (
                     <MDBBadge color="danger" pill>
                       4
                     </MDBBadge>{" "}
-                    Courts <strong>Couverts</strong> en{" "}
-                    <strong>Terre battue</strong>
+                    Courts <strong className="red-text">Couverts</strong> en{" "}
+                    <strong className="red-text">Terre battue</strong>
                   </li>
 
                   <li>
                     <MDBBadge color="danger" pill>
                       1
                     </MDBBadge>{" "}
-                    <strong>Restaurant</strong> de 65 couverts, ouvert du Lundi
-                    au Samedi, midis et soirs, à prix raisonnables.
+                    <strong className="red-text">Restaurant</strong> de 65
+                    couverts, ouvert du Lundi au Samedi, midis et soirs, à prix
+                    raisonnables.
                   </li>
                 </ul>
               </p>
@@ -279,9 +285,9 @@ const IndexPage = () => (
           </h1>
 
           <p className="text-center w-responsive mx-auto wow fadeIn my-5">
-            Le club <span className="light-blue-text">SAM</span>
-            <span className="red-text"> TENNIS</span> offre la possibilité aux
-            adhérents différents aspetcs de la pratiques du tennis de
+            Le club <strong className="light-blue-text">SAM</strong>
+            <strong className="red-text"> TENNIS</strong> offre la possibilité
+            aux adhérents différents aspetcs de la pratiques du tennis de
             l'enseignement à la compétition en passant par le loisir .
           </p>
 

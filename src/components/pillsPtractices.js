@@ -74,22 +74,24 @@ class PillsPractices extends Component {
           <MDBTabPane tabId="1">
             <blockquote className="blockquote">
               <p>
-                <strong>
+                <strong className="light-blue-text">
                   LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS
                   COUVERTS, S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
                 </strong>
                 <ul className="mt-2">
                   <li>
-                    Sur place au <span className="light-blue-text">Club</span>
-                    <span className="red-text"> House</span>.
+                    Sur place au{" "}
+                    <strong className="light-blue-text">Club</strong>
+                    <strong className="red-text"> House</strong>.
                   </li>
                   <li>
                     {" "}
                     Par téléphone en appelant le{" "}
-                    <span className="light-blue-text">Club</span>
-                    <span className="red-text"> House</span> au 05.56.97.43.85{" "}
+                    <strong className="light-blue-text">Club</strong>
+                    <strong className="red-text"> House</strong> au
+                    05.56.97.43.85{" "}
                     <MDBTooltip placement="top">
-                      <MDBBtn tag="a" size="sm" floating gradient="blue">
+                      <MDBBtn tag="a" size="xs" floating gradient="blue">
                         <MDBIcon icon="question" />
                       </MDBBtn>
 
@@ -114,7 +116,7 @@ class PillsPractices extends Component {
                   </li>
                   <li>
                     {" "}
-                    Par <span className="red-text">internet</span> , voir la
+                    Par <strong className="red-text">internet</strong> , voir la
                     page RESERVATION{" "}
                   </li>
                 </ul>
@@ -136,10 +138,10 @@ class PillsPractices extends Component {
               </p>
               <p className="blockquote-footer mb-1">
                 Si vous voulez jouer mais n'avez pas de partenaire,
-                <span className="light-blue-text"> Marie Hélène </span>
-                et <span className="red-text">Virginie</span> vous en trouvent
-                un et nous sommes en train de constituer un classeur des membres
-                du Club consultable librement par tous{" "}
+                <strong className="light-blue-text"> Marie Hélène </strong>
+                et <strong className="red-text">Virginie</strong> vous en
+                trouvent un et nous sommes en train de constituer un classeur
+                des membres du Club consultable librement par tous{" "}
                 <strong>classement par sexe et par niveau de jeu</strong>.
               </p>
             </blockquote>
@@ -147,7 +149,7 @@ class PillsPractices extends Component {
           <MDBTabPane tabId="2">
             <MDBRow>
               <MDBCol>
-                <h4 className="h4-responsive text-center">
+                <h4 className="h4-responsive text-center light-blue-text">
                   Compétitions par équipes
                 </h4>
                 <hr
@@ -162,43 +164,46 @@ class PillsPractices extends Component {
                 <ul className="">
                   <li className="my-2">
                     Equipe Fanion{" "}
-                    <span className="light-blue-text">Hommes</span> en{" "}
-                    <span className="red-text">Nationale 4</span>.
+                    <strong className="light-blue-text">Hommes</strong> en{" "}
+                    <strong className="red-text">Nationale 4</strong>.
                   </li>
                   <li className="my-2">
-                    Equipe Fanion <span className="light-blue-text">Dames</span>{" "}
-                    en <span className="red-text">DSR</span>.
+                    Equipe Fanion{" "}
+                    <strong className="light-blue-text">Dames</strong> en{" "}
+                    <strong className="red-text">DSR</strong>.
                   </li>
                   <li className="my-2">
-                    3 équipes <span className="light-blue-text">Féminines</span>{" "}
-                    et 5 équipes <span className="red-text">Masculines</span> en{" "}
+                    3 équipes{" "}
+                    <strong className="light-blue-text">Féminines</strong> et 5
+                    équipes <strong className="red-text">Masculines</strong> en{" "}
                     <strong>Interclubs de Printemps </strong>.
                   </li>
                   <li className="my-2">
                     Équipes Masculines{" "}
-                    <span className="light-blue-text">3ème </span> et{" "}
-                    <span className="red-text">4ème</span> Série en{" "}
+                    <strong className="light-blue-text">3ème </strong> et{" "}
+                    <strong className="red-text">4ème</strong> Série en{" "}
                     <strong>Championnat de Gironde</strong> .
                   </li>
                   <li className="my-2">
-                    Équipes <span className="light-blue-text">Messieurs</span>{" "}
-                    [35, 45, 55, 65 ans] en{" "}
-                    <strong>Interclubs régionaux.</strong>
+                    Équipes{" "}
+                    <strong className="light-blue-text">Messieurs</strong> [35,
+                    45, 55, 65 ans] en <strong>Interclubs régionaux.</strong>
                   </li>
                   <li className="my-2">
-                    Équipes <span className="red-text">4ème série </span>{" "}
+                    Équipes <strong className="red-text">4ème série </strong>{" "}
                     féminines dans Les <strong>Raquettes F.F.T</strong> .
                   </li>
                   <li className="my-2">
-                    Équipes de<span className="light-blue-text"> Jeunes</span>{" "}
-                    garçons et filles dans toutes les catégories d'âges de 9/10
-                    11/12 13/14 et 15/16 ans, dans les différentes compétitions{" "}
+                    Équipes de
+                    <strong className="light-blue-text"> Jeunes</strong> garçons
+                    et filles dans toutes les catégories d'âges de 9/10 11/12
+                    13/14 et 15/16 ans, dans les différentes compétitions{" "}
                     <strong>départementales et régionales</strong> .
                   </li>
                 </ul>
               </MDBCol>
               <MDBCol>
-                <h4 className="h4-responsive text-center">
+                <h4 className="h4-responsive text-center red-text">
                   Compétion Individuelle
                 </h4>
                 <hr
@@ -219,7 +224,7 @@ class PillsPractices extends Component {
                       />
                     </MDBMedia>
                     <MDBMedia body>
-                      <MDBMedia heading>
+                      <MDBMedia heading className="light-blue-text">
                         Fédération Française de Tennis
                       </MDBMedia>
                       <span className="">
@@ -242,7 +247,9 @@ class PillsPractices extends Component {
                       />
                     </MDBMedia>
                     <MDBMedia body>
-                      <MDBMedia heading>Ligue de Guyenne de Tennis</MDBMedia>
+                      <MDBMedia heading className="red-text">
+                        Ligue de Guyenne de Tennis
+                      </MDBMedia>
                       <span className="">
                         Le but La ligue de Guyenne est d'organiser et de
                         développer la pratique du tennis sur son territoire
@@ -264,7 +271,7 @@ class PillsPractices extends Component {
                       />
                     </MDBMedia>
                     <MDBMedia body>
-                      <MDBMedia heading>
+                      <MDBMedia heading className="light-blue-text">
                         Comité Départemental de Gironde
                       </MDBMedia>
                       <span className="">
@@ -359,8 +366,10 @@ class PillsPractices extends Component {
                     <ul className="list-unstyled">
                       <li>
                         <p>
-                          <strong>A ROBERT BRETTES</strong>: Mercredi de 14h à
-                          18h.
+                          <strong className="light-blue-text">
+                            A ROBERT BRETTES
+                          </strong>
+                          : Mercredi de 14h à 18h.
                         </p>
                       </li>
                       <li>
@@ -371,8 +380,8 @@ class PillsPractices extends Component {
                       </li>
                       <li>
                         <p>
-                          <strong>A LA ROSERAIE </strong>:<br /> Samedi de 9h à
-                          12h.
+                          <strong className="red-text">A LA ROSERAIE </strong>:
+                          <br /> Samedi de 9h à 12h.
                         </p>
                       </li>
                       <li>
@@ -403,20 +412,25 @@ class PillsPractices extends Component {
                       </li>
                       <li>
                         <p>
-                          <strong>Michel PONTICO </strong>: 06.19.64.49.06
-                          michelpontico2012@gmail.com
+                          <strong className="light-blue-text">
+                            Michel PONTICO{" "}
+                          </strong>
+                          : 06.19.64.49.06 michelpontico2012@gmail.com
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong> Luc FINOEL </strong>: 06.83.44.96.47
-                          lfinoel@gmail.com
+                          <strong className="red-text"> Luc FINOEL </strong>:
+                          06.83.44.96.47 lfinoel@gmail.com
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong> Benjamin CATTAN </strong>: 06.59.36.19.76
-                          maitrecat@hotmail.com
+                          <strong className="light-blue-text">
+                            {" "}
+                            Benjamin CATTAN{" "}
+                          </strong>
+                          : 06.59.36.19.76 maitrecat@hotmail.com
                         </p>
                       </li>
                     </ul>
