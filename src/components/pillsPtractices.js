@@ -408,9 +408,6 @@ class PillsPractices extends Component {
                   <div className="card-body streakd">
                     <ul className="list-unstyled">
                       <li>
-                        <p>consulter nos éducateurs</p>
-                      </li>
-                      <li>
                         <p>
                           <strong className="light-blue-text">
                             Michel PONTICO{" "}
@@ -449,13 +446,14 @@ class PillsPractices extends Component {
                   illimitée.{" "}
                 </h6>
                 Les <strong>30 séances</strong> hebdomadaires de 1h pour
-                <strong className="light-blue-text"> l'Ecole de Tennis </strong>et
-                les <strong className="red-text">Cours Collectifs</strong> ont lieu
-                de début Octobre à fin Juin [hors les vacances scolaires]. Il en
-                est de même pour la 2ème heure. Les enfants sont par groupe de
-                niveau et d'âge similaires. Il y a un enseignant par groupe et
-                par terrain. Les groupes sont limités à 8 enfants pour l'Ecole
-                de Tennis et à 6 enfants pour les Cours Collectifs Jeunes.
+                <strong className="light-blue-text"> l'Ecole de Tennis </strong>
+                et les <strong className="red-text">Cours Collectifs</strong>{" "}
+                ont lieu de début Octobre à fin Juin [hors les vacances
+                scolaires]. Il en est de même pour la 2ème heure. Les enfants
+                sont par groupe de niveau et d'âge similaires. Il y a un
+                enseignant par groupe et par terrain. Les groupes sont limités à
+                8 enfants pour l'Ecole de Tennis et à 6 enfants pour les Cours
+                Collectifs Jeunes.
               </p>
             </div>
           </MDBTabPane>
