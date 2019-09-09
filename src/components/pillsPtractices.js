@@ -90,7 +90,7 @@ class PillsPractices extends Component {
                     <strong className="light-blue-text">Club</strong>
                     <strong className="red-text"> House</strong> au
                     05.56.97.43.85{" "}
-                    <MDBTooltip placement="top">
+                    {/* <MDBTooltip placement="top">
                       <MDBBtn tag="a" size="xs" floating gradient="blue">
                         <MDBIcon icon="question" />
                       </MDBBtn>
@@ -112,7 +112,7 @@ class PillsPractices extends Component {
                           14h à 18h le Dimanche.
                         </p>
                       </div>
-                    </MDBTooltip>
+                    </MDBTooltip> */}
                   </li>
                   <li>
                     {" "}

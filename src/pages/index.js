@@ -309,10 +309,13 @@ const IndexPage = () => (
           </h1>
 
           <p className="text-center w-responsive mx-auto wow fadeIn my-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste
-            provident, voluptatum voluptatibus aut modi aspernatur autem
-            impedit, eius, debitis earum voluptatem. Quaerat hic aspernatur
-            laborum magni earum. At, officiis!
+            <strong className="red-text">RÉDUCTION </strong> pour enfants d'une
+            même famille{" "}
+            <trong className="light-blue-text">
+              Ecole de Tennis - Cours Collectifs Jeunes
+            </trong>{" "}
+            : 2ème enfant - 10% sur sa cotisation, à partir du 3ème - 20% sur
+            leur cotisation.
           </p>
 
           <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
@@ -327,7 +330,7 @@ const IndexPage = () => (
             className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
             data-wow-delay="0.2s"
           >
-            News
+            Nouvelles du club
           </h1>
 
           <hr className="between-sections" />
@@ -335,7 +338,7 @@ const IndexPage = () => (
             <div className="col-lg-3">
               <div className="view overlay mb-3 z-depth-1">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Others/team1.jpg"
+                  src="https://images.unsplash.com/photo-1531315396756-905d68d21b56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80 "
                   className="card-img-top"
                   alt="Post Image"
                 />
@@ -346,20 +349,25 @@ const IndexPage = () => (
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
                 <a href="#!" className="text-muted  font-weight-bold">
-                  | 23 MAY 2017
+                  | 1 JUILLET 2019
                 </a>
               </h6>
-              <h4 className="mb-3">
-                <a href="#!" className="teal-text font-weight-bold">
-                  This is title of the news
-                </a>
+              <h4 className="font-weight-bold light-blue-text mb-3">
+                ASSEMBLÉE GÉNÉRALE
               </h4>
               <p className="-3 font-thin" align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+                Elle aura lieu le{" "}
+                <span className="red-text">
+                  vendredi 5 juillet 2019 à 19:00{" "}
+                </span>{" "}
+                au siège du Club 60 Avenue du Truc à Mérignac.
               </p>
+              <ul>
+                <u>Ordre du jour :</u>
+                <li>Rapport Moral</li>
+                <li>Rapport Sportif</li>
+                <li>Rapport Financier</li>
+              </ul>
             </div>
           </div>
           <hr className="between-sections mt-4 mb-4" />
@@ -367,7 +375,7 @@ const IndexPage = () => (
             <div className="col-lg-3">
               <div className="view overlay mb-3 z-depth-1">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Others/team2.jpg"
+                  src="https://images.unsplash.com/photo-1551916389-5dec87bcc557?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80"
                   className="card-img-top"
                   alt="Post Image"
                 />
@@ -378,20 +386,37 @@ const IndexPage = () => (
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
                 <a href="#!" className="text-muted  font-weight-bold">
-                  | 23 MAY 2017
+                  | 1 SEPTEMBRE 2019
                 </a>
               </h6>
-              <h4 className="mb-3">
-                <a href="#!" className="teal-text font-weight-bold">
-                  This is title of the news
-                </a>
+              <h4 className="mb-3 font-weight-bold light-blue-text">
+                TOURNOIS INTERNES
               </h4>
-              <p className="-3 font-thin" align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
-              </p>
+              <ul>
+                <li>
+                  {" "}
+                  <p className="-3 font-thin" align="justify">
+                    <span className="red-text">
+                      Qualificatif au trophée Perrier :
+                    </span>{" "}
+                    homologué, de mi Octobre à mi Décembre. Tournoi de simples,
+                    réservé aux : non classés, 4ème série et 3ème série jusqu'à
+                    15/4.
+                  </p>
+                </li>
+                <li>
+                  {" "}
+                  <p className="-3 font-thin" align="justify">
+                    <span className="red-text">
+                      Tournoi interne par niveau de classement :
+                    </span>{" "}
+                    défis entre les adhérents du{" "}
+                    <span className="light-blue-text">SAM</span>, au printemps.
+                    Tournoi de simples, ouvert à tous les adhérents du Club
+                    Jeunes et Adultes.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
           <hr className="between-sections mt-4 mb-4" />
@@ -399,7 +424,7 @@ const IndexPage = () => (
             <div className="col-lg-3">
               <div className="view overlay mb-3 z-depth-1">
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Others/team3.jpg"
+                  src="https://images.unsplash.com/photo-1555160679-b1b58488f476?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80"
                   className="img-fluid z-depth-1"
                   alt="Post Image"
                 />
@@ -410,22 +435,42 @@ const IndexPage = () => (
             <div className="col-lg-9 add-margins-2">
               <h6 className="text-uppercase mb-3">
                 <a href="#!" className="text-muted  font-weight-bold pb-1">
-                  | 31 JUN 2017
+                  | 1 AU 15 SEPTEMBRE 2019
                 </a>
               </h6>
-              <h4 className="mb-3">
-                <a href="#!" className="teal-text font-weight-bold pb-3">
-                  This is title of the news
-                </a>
+              <h4 className="mb-3 light-blue-text font-weight-bold pb-3">
+                TOURNOIS OPEN
               </h4>
-              <p className="-3 font-thin" align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-              </p>
+              <ul>
+                <li>
+                  <p className="-3 font-thin" align="justify">
+                    <span className="red-text">
+                      Tournoi de Jeunes du SAM Tennis :
+                    </span>{" "}
+                    Durant la première quinzaine de Septembre [du 25 août au 8
+                    Septembre 2018]. Tournoi de simples. Ouvert aux joueurs et
+                    joueuses 9/10 ans 11/12 ans 13/14 ans et 15/16 ans avec
+                    catégories suivant les âges.
+                  </p>
+                </li>
+                <li>
+                  <p className="-3 font-thin" align="justify">
+                    <span className="red-text"> Bon Vivre :</span> les 2ème et
+                    3ème semaine de Janvier [du 4 au 21 Janvier 2018]. Tournoi
+                    de simples, réservé aux joueurs et joueuses de plus de 35
+                    ans, de non classés à 4/6 avec catégories suivants les âges
+                    : 35 SD, 35, 45, 55, 60, 65, 70, 75 ans SM.
+                  </p>
+                </li>
+                <li>
+                  <p className="-3 font-thin" align="justify">
+                    <span className="red-text">Open du SAM Tennis </span> durant
+                    les vacances scolaires de printemps. Tournoi de simples.
+                    Ouverts à tous les joueurs et joueuses licenciés de non
+                    classé à 1ère série.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </section>

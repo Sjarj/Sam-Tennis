@@ -38,7 +38,7 @@ class TabPrices extends Component {
                 }`}
                 onClick={this.toggleTabs("default", "1")}
               >
-                Tarifs
+                TARIFS
               </MDBNavItem>
               <MDBNavItem
                 className={`nav-link ${
@@ -199,16 +199,6 @@ class TabPrices extends Component {
                 </MDBRow>
               </MDBTabPane>
               <MDBTabPane tabId="4">
-                <p>
-                  <strong className="red-text">RÉDUCTION </strong> pour enfants
-                  d'une même famille{" "}
-                  <trong className="light-blue-text">
-                    Ecole de Tennis - Cours Collectifs Jeunes
-                  </trong>{" "}
-                  : 2ème enfant - 10% sur sa cotisation, à partir du 3ème - 20%
-                  sur leur cotisation.
-                </p>
-                <hr />
                 <strong className="red-text">COURS COLLECTIFS ADULTES</strong>
                 <p className="mt-2">
                   à partir de 19 ans <br />
