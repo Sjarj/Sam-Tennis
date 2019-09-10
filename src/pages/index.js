@@ -355,7 +355,7 @@ const IndexPage = () => (
                 </a>
               </h6>
               <h4 className="font-weight-bold light-blue-text mb-3">
-                ASSEMBLÉE GÉNÉRALE
+                Assemblé Général
               </h4>
               <p className="-3 font-thin" align="justify">
                 Elle aura lieu le{" "}
@@ -392,7 +392,7 @@ const IndexPage = () => (
                 </a>
               </h6>
               <h4 className="mb-3 font-weight-bold light-blue-text">
-                TOURNOIS INTERNES
+                Tournois Internes
               </h4>
               <ul>
                 <li>
@@ -441,7 +441,7 @@ const IndexPage = () => (
                 </a>
               </h6>
               <h4 className="mb-3 light-blue-text font-weight-bold pb-3">
-                TOURNOIS OPEN
+                Tournois Open
               </h4>
               <ul>
                 <li>
