@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import PillsPractices from "../components/pillsPtractices"
 import SliderTeam from "../components/sliderTeam"
 import TabPrices from "../components/tabPrices"
+import CollapseReservation from "../components/collapseReservetion"
+import PillsInscription from "../components/pillsInscription"
 
 const IndexPage = () => (
   <Layout>
@@ -476,7 +478,14 @@ const IndexPage = () => (
         </section>
 
         <hr className="between-sections" />
-
+        <section id="reservation" className="section mb-4">
+          <CollapseReservation />
+        </section>
+        <hr className="between-sections" />
+        <section id="inscription" className="section mb-4">
+          <PillsInscription />
+        </section>
+        <hr className="between-sections" />
         <section id="contact" className="section mb-4">
           <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn">
             Contact us

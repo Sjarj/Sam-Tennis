@@ -6,9 +6,6 @@ import {
   MDBTabContent,
   MDBNav,
   MDBNavItem,
-  MDBIcon,
-  MDBTooltip,
-  MDBBtn,
   MDBRow,
   MDBCol,
   MDBMedia,
@@ -447,7 +444,9 @@ class PillsPractices extends Component {
                 </h6>
                 Les <strong>30 séances</strong> hebdomadaires de 1h pour
                 <strong className="light-blue-text"> l'Ecole de Tennis </strong>
-                et les <strong className="red-text">Cours Collectifs</strong>{" "}
+                et les <strong className="red-text">
+                  Cours Collectifs
+                </strong>{" "}
                 ont lieu de début Octobre à fin Juin [hors les vacances
                 scolaires]. Il en est de même pour la 2ème heure. Les enfants
                 sont par groupe de niveau et d'âge similaires. Il y a un
