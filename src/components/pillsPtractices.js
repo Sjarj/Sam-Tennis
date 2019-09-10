@@ -308,9 +308,6 @@ class PillsPractices extends Component {
                         <p>pour les meilleurs compétiteurs.</p>
                       </li>
                     </ul>
-                    <button className="btn blue-gradient">
-                      Voir les tarifs
-                    </button>
                   </div>
                 </div>
               </div>
@@ -342,9 +339,6 @@ class PillsPractices extends Component {
                         </p>
                       </li>
                     </ul>
-                    <button className="btn blue-gradient">
-                      Voir les tarifs
-                    </button>
                   </div>
                 </div>
               </div>
@@ -385,9 +379,6 @@ class PillsPractices extends Component {
                         <p>Lundi, Mardi, Jeudi, Vendredi de 17h à 18h.</p>
                       </li>
                     </ul>
-                    <button className="btn blue-gradient">
-                      Voir les tarifs
-                    </button>
                   </div>
                 </div>
               </div>
@@ -428,9 +419,6 @@ class PillsPractices extends Component {
                         </p>
                       </li>
                     </ul>
-                    <button className="btn blue-gradient">
-                      Voir les tarifs
-                    </button>
                   </div>
                 </div>
               </div>
