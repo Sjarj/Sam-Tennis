@@ -156,21 +156,21 @@ const IndexPage = () => (
               <MDBRow>
                 <MDBCol size="6" className="my-2">
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       2
                     </MDBBadge>{" "}
                     Courts en{" "}
                     <strong className="light-blue-text">Terre battue </strong>.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       4
                     </MDBBadge>{" "}
                     Courts en{" "}
                     <strong className="light-blue-text"> Quick </strong>.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       1
                     </MDBBadge>{" "}
                     Terrain de Pétanque .
@@ -178,20 +178,20 @@ const IndexPage = () => (
                 </MDBCol>
                 <MDBCol size="6" className="my-2">
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       2
                     </MDBBadge>{" "}
                     Courts en <strong className="light-blue-text">Soft </strong>{" "}
                     Type de Terre battue.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       3
                     </MDBBadge>{" "}
                     Courts de Mini-Tennis.
                   </div>
                   <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill>
+                    <MDBBadge color="primary" pill className="mr-2">
                       1
                     </MDBBadge>{" "}
                     Table de Ping-Pong et Un Baby Foot.
@@ -206,7 +206,7 @@ const IndexPage = () => (
                 d'Eau - 33700 Mérignac Quartier Capeyron :
                 <ul style={{ listStyle: `none`, marginTop: `0.9rem` }}>
                   <li>
-                    <MDBBadge color="danger" pill>
+                    <MDBBadge color="danger" pill className="mr-2">
                       4
                     </MDBBadge>{" "}
                     Courts <strong className="red-text">Couverts</strong> en{" "}
@@ -214,7 +214,7 @@ const IndexPage = () => (
                   </li>
 
                   <li>
-                    <MDBBadge color="danger" pill>
+                    <MDBBadge color="danger" pill className="mr-2">
                       1
                     </MDBBadge>{" "}
                     <strong className="red-text">Restaurant</strong> de 65
