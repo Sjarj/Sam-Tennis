@@ -9,6 +9,7 @@ import {
   MDBIcon,
   MDBRow,
   MDBCol,
+  MDBBtn,
 } from "mdbreact"
 
 class CollapseReservation extends Component {
@@ -38,7 +39,7 @@ class CollapseReservation extends Component {
           La réservation des courts extérieurs comme des courts couverts,
           s'effectue la veille ou le jour même :
         </p>
-        <div className="classic-tabs">
+        <MDBCol className="classic-tabs">
           <MDBNav classicTabs color="primary" className="mt-5">
             <MDBNavItem>
               <Link
@@ -101,7 +102,7 @@ class CollapseReservation extends Component {
                 <address>
                   <a href="tel:+330556974385">05.56.97.43.85</a>{" "}
                 </address>
-                . Les Horaires d'ouverture de notre{" "}
+                Les Horaires d'ouverture de notre{" "}
                 <strong className="light-blue-text">Club </strong>{" "}
                 <strong className="red-text">House </strong> sont les suivants:
               </p>
@@ -109,8 +110,9 @@ class CollapseReservation extends Component {
                 {" "}
                 Le <strong className="light-blue-text">Matin</strong> tous les
                 jours de 9h à 12h30 sauf le Mardi fermé.
-                <br />
-                <strong className="red-text ml-1">L'Après-midi </strong>:
+              </p>
+              <p>
+                <strong className="red-text ">L'Après-midi </strong>:
                 <ul>
                   <li>
                     De Avril à Septembre. 14h à 20h du Lundi au Samedi, de 14h à
@@ -128,7 +130,11 @@ class CollapseReservation extends Component {
                 <MDBCol md="6">
                   Nous utilisons le logiciel{" "}
                   <strong>
-                    <a href="https://ballejaune.com/fr" target="_blank">
+                    <a
+                      href="https://ballejaune.com/fr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Balle Jaune
                     </a>
                   </strong>{" "}
@@ -154,7 +160,40 @@ class CollapseReservation extends Component {
                     </li>
                   </ul>
                 </MDBCol>
-                <MDBCol md="6">qsdqs</MDBCol>
+                <MDBCol md="6">
+                  <h4
+                    className="text-center light-blue-text "
+                    style={{ fontWeight: `400` }}
+                  >
+                    Faites une réservation
+                  </h4>
+                  <div className="d-flex justify-content-center my-4">
+                    <MDBBtn
+                      rounded
+                      color="warning"
+                      href="https://ballejaune.com/club/sam-tennis"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Balle Jaune
+                    </MDBBtn>
+                  </div>
+                  Pour utiliser ce système
+                  <ol className="mt-4">
+                    Renseigner dans le rectangle{" "}
+                    <strong className="red-text">
+                      « Accès à la Réservation »
+                    </strong>
+                    <li className="mt-2">
+                      {" "}
+                      Son Identifiant composé de : son{" "}
+                      <strong className="red-text">NOM</strong> puis son{" "}
+                      <strong className="light-blue-text"> PRENOMS </strong>en
+                      laissant un espace entre les deux.
+                    </li>
+                    <li className="mt-1">Son Mot de passe</li>
+                  </ol>
+                </MDBCol>
               </MDBRow>
             </MDBTabPane>
             <MDBTabPane tabId="3">
@@ -174,7 +213,7 @@ class CollapseReservation extends Component {
               </p>
             </MDBTabPane>
           </MDBTabContent>
-        </div>
+        </MDBCol>
       </MDBContainer>
     )
   }
