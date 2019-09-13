@@ -260,7 +260,7 @@ const IndexPage = () => (
           </h1>
 
           <p
-            className="text-center w-responsive mx-auto wow fadeIn my-5"
+            className="text-center w-responsive mx-auto wow fadeIn my-5 lead"
             data-wow-delay="0.2s"
           >
             Est composée d'un comité directeur, d'administratifs ayant en charge
@@ -286,7 +286,7 @@ const IndexPage = () => (
             Les pratiques
           </h1>
 
-          <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+          <p className="text-center w-responsive mx-auto wow fadeIn my-5 lead">
             Le club <strong className="light-blue-text">SAM</strong>
             <strong className="red-text"> TENNIS</strong> offre la possibilité
             aux adhérents différents aspetcs de la pratiques du tennis de
@@ -303,23 +303,6 @@ const IndexPage = () => (
         <hr className="between-sections" />
 
         <section id="tickets" className="section">
-          <h1
-            className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
-            data-wow-delay="0.2s"
-          >
-            Tarifs
-          </h1>
-
-          <p className="text-center w-responsive mx-auto wow fadeIn my-5">
-            <strong className="red-text">RÉDUCTION </strong> pour enfants d'une
-            même famille{" "}
-            <trong className="light-blue-text">
-              Ecole de Tennis - Cours Collectifs Jeunes
-            </trong>{" "}
-            : 2ème enfant - 10% sur sa cotisation, à partir du 3ème - 20% sur
-            leur cotisation.
-          </p>
-
           <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
             <TabPrices />
           </div>

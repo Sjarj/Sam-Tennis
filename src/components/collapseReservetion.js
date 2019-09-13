@@ -7,6 +7,8 @@ import {
   MDBNav,
   MDBNavItem,
   MDBIcon,
+  MDBRow,
+  MDBCol,
 } from "mdbreact"
 
 class CollapseReservation extends Component {
@@ -26,6 +28,16 @@ class CollapseReservation extends Component {
   render() {
     return (
       <MDBContainer>
+        <h1
+          className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
+          data-wow-delay="0.2s"
+        >
+          Réservation
+        </h1>
+        <p className="text-center w-responsive mx-auto wow fadeIn my-5 lead">
+          La réservation des courts extérieurs comme des courts couverts,
+          s'effectue la veille ou le jour même :
+        </p>
         <div className="classic-tabs">
           <MDBNav classicTabs color="primary" className="mt-5">
             <MDBNavItem>
@@ -112,12 +124,38 @@ class CollapseReservation extends Component {
               </p>
             </MDBTabPane>
             <MDBTabPane tabId="2">
-              <p>
-                Quisquam aperiam, pariatur. Tempora, placeat ratione porro
-                voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                reiciendis molestiae placeat unde eos molestias.
-              </p>
+              <MDBRow>
+                <MDBCol md="6">
+                  Nous utilisons le logiciel{" "}
+                  <strong>
+                    <a href="https://ballejaune.com/fr" target="_blank">
+                      Balle Jaune
+                    </a>
+                  </strong>{" "}
+                  qui vous permet :
+                  <ul className="my-3">
+                    <li>D’accéder aux plannings des courts</li>
+                    <li>
+                      D’effectuer une réservation pour{" "}
+                      <strong className="red-text">1h</strong>
+                    </li>
+                    <li>
+                      De supprimer ou modifier une réservation que l’on a
+                      effectuée
+                    </li>
+                  </ul>
+                  Le système est ouvert 7j/7j
+                  <ul className="my-3">
+                    <li>24h/24h pour la consultation des plannings</li>
+                    <li>
+                      <strong className="red-text">NOUVEAUX HORAIRES ! </strong>{" "}
+                      De <strong className="light-blue-text">8h à 22h </strong>{" "}
+                      pour les réservations
+                    </li>
+                  </ul>
+                </MDBCol>
+                <MDBCol md="6">qsdqs</MDBCol>
+              </MDBRow>
             </MDBTabPane>
             <MDBTabPane tabId="3">
               <p>

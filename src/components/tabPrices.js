@@ -31,6 +31,22 @@ class TabPrices extends Component {
       <MDBContainer className="mt-4">
         <MDBRow>
           <MDBCol md="12">
+            <h1
+              className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              Tarifs
+            </h1>
+
+            <p className="text-center w-responsive mx-auto wow fadeIn my-5 lead">
+              <strong className="red-text">RÉDUCTION </strong> pour enfants
+              d'une même famille{" "}
+              <trong className="light-blue-text">
+                Ecole de Tennis - Cours Collectifs Jeunes
+              </trong>{" "}
+              : 2ème enfant - 10% sur sa cotisation, à partir du 3ème - 20% sur
+              leur cotisation.
+            </p>
             <MDBNav tabs className="mt-5 nav-justified" color="danger">
               <MDBNavItem
                 className={`nav-link ${

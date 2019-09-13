@@ -69,79 +69,54 @@ class PillsPractices extends Component {
         </MDBNav>
         <MDBTabContent activeItem={this.state.items["default"]}>
           <MDBTabPane tabId="1">
-            <blockquote className="blockquote">
-              <p>
-                <strong className="light-blue-text">
-                  LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS
-                  COUVERTS, S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
-                </strong>
-                <ul className="mt-2">
-                  <li>
-                    Sur place au{" "}
-                    <strong className="light-blue-text">Club</strong>
-                    <strong className="red-text"> House</strong>.
-                  </li>
-                  <li>
+            <p>
+              <strong className="light-blue-text">
+                LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS COUVERTS,
+                S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
+              </strong>
+              <ul className="mt-3">
+                <li>
+                  Sur place au <strong className="light-blue-text">Club</strong>
+                  <strong className="red-text"> House</strong>.
+                </li>
+                <li className="mt-4">
+                  <address>
                     {" "}
                     Par téléphone en appelant le{" "}
                     <strong className="light-blue-text">Club</strong>
-                    <strong className="red-text"> House</strong> au
-                    05.56.97.43.85{" "}
-                    {/* <MDBTooltip placement="top">
-                      <MDBBtn tag="a" size="xs" floating gradient="blue">
-                        <MDBIcon icon="question" />
-                      </MDBBtn>
-
-                      <div>
-                        Les Horaires d'ouverture de notre Club House sont les
-                        suivants :{" "}
-                        <p>
-                          Le Matin tous les jours de 9h à 12h30 [sauf le Mardi
-                          fermé]
-                        </p>
-                        <p>
-                          L'Après-midi : De Avril à Septembre. 14h à 20h du
-                          Lundi au Samedi, de 14h à 19h le Dimanche.
-                        </p>
-                        <p>
-                          {" "}
-                          de Octobre à Mars. 14h à 19h du Lundi au Samedi, de
-                          14h à 18h le Dimanche.
-                        </p>
-                      </div>
-                    </MDBTooltip> */}
-                  </li>
-                  <li>
-                    {" "}
-                    Par <strong className="red-text">internet</strong> , voir la
-                    page RESERVATION{" "}
-                  </li>
-                </ul>
-              </p>
-              <p className="blockquote-footer  mb-1">
-                Nos courts extérieurs sont disponibles pour du Loisir chaque
-                jour toute la journée{" "}
-                <strong>
-                  sauf les terres battues indisponibles du début de la période
-                  de gel jusqu'à leur réfection au printemps
-                </strong>
-                .
-              </p>
-              <p className="blockquote-footer mb-1">
-                Nos courts couverts compte tenu de l'école de tennis des courts
-                collectifs adultes et jeunes sont disponibles pour le loisir
-                suivant des créneaux différents en période et hors période
-                scolaire.
-              </p>
-              <p className="blockquote-footer mb-1">
-                Si vous voulez jouer mais n'avez pas de partenaire,
-                <strong className="light-blue-text"> Marie Hélène </strong>
-                et <strong className="red-text">Virginie</strong> vous en
-                trouvent un et nous sommes en train de constituer un classeur
-                des membres du Club consultable librement par tous{" "}
-                <strong>classement par sexe et par niveau de jeu</strong>.
-              </p>
-            </blockquote>
+                    <strong className="red-text "> House</strong> au :{" "}
+                    <a href="tel:+330556974385">05.56.97.43.85</a>
+                  </address>
+                </li>
+                <li>
+                  Par <strong className="red-text">internet</strong> , voir la
+                  page RESERVATION{" "}
+                </li>
+              </ul>
+            </p>
+            <p className=" my-3">
+              Nos courts extérieurs sont disponibles pour du Loisir chaque jour
+              toute la journée{" "}
+              <strong>
+                sauf les terres battues indisponibles du début de la période de
+                gel jusqu'à leur réfection au printemps
+              </strong>
+              .
+            </p>
+            <p className="my-3">
+              Nos courts couverts compte tenu de l'école de tennis des courts
+              collectifs adultes et jeunes sont disponibles pour le loisir
+              suivant des créneaux différents en période et hors période
+              scolaire.
+            </p>
+            <p className="my-3">
+              Si vous voulez jouer mais n'avez pas de partenaire,
+              <strong className="light-blue-text"> Marie Hélène </strong>
+              et <strong className="red-text">Virginie</strong> vous en trouvent
+              un et nous sommes en train de constituer un classeur des membres
+              du Club consultable librement par tous{" "}
+              <strong>classement par sexe et par niveau de jeu</strong>.
+            </p>
           </MDBTabPane>
           <MDBTabPane tabId="2">
             <MDBRow>
