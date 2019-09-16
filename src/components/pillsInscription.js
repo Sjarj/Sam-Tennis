@@ -39,76 +39,45 @@ class PillsInscription extends Component {
         <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn">
           Inscription
         </h1>
+        <p className="text-center w-responsive mx-auto wow fadeIn my-5 lead">
+          Les inscriptions s'effectuent à notre secrétariat au{" "}
+          <strong className="light-blue-text">Club </strong>
+          <strong className="red-text">House</strong> et correspondent sauf pour
+          les inscriptions Vacances et celles en cours de saison à une adhésion
+          pour la saison sportive de début Octobre à fin Septembre. Cette
+          adhésion permet la pratique du Tennis dans notre Club toute l'année.
+        </p>
         <MDBContainer className="my-5">
           <MDBRow>
-            <MDBCol md="3">
-              <MDBNav pills color="danger" className="flex-column">
-                <MDBNavItem>
-                  <Link
-                    to="#"
-                    className={`nav-link Ripple-parent ${
-                      this.state.items["vertical"] === "1" ? "active" : ""
-                    }`}
-                    onClick={this.togglePills("vertical", "1")}
-                  >
-                    Downloads <MDBIcon icon="download" className="ml-2" />
-                  </Link>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <Link
-                    to="#"
-                    className={`nav-link Ripple-parent ${
-                      this.state.items["vertical"] === "2" ? "active" : ""
-                    }`}
-                    onClick={this.togglePills("vertical", "2")}
-                  >
-                    Orders & invoices
-                    <MDBIcon icon="file-alt" className="ml-2" />
-                  </Link>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <Link
-                    to="#"
-                    className={`nav-link Ripple-parent ${
-                      this.state.items["vertical"] === "3" ? "active" : ""
-                    }`}
-                    onClick={this.togglePills("vertical", "3")}
-                  >
-                    Billing Details
-                    <MDBIcon icon="address-card" className="ml-2" />
-                  </Link>
-                </MDBNavItem>
-              </MDBNav>
+            <MDBCol md="6">
+              <h5 className="h5-responsive text-justify text-center light-blue-text my-5">
+                {" "}
+                Inscriptions ou ré-inscriptions à l'Ecole de Tennis et aux Cours
+                Collectifs.
+              </h5>
+              <ul>
+                <li className="my-4">
+                  Elles peuvent être effectuées depuis le{" "}
+                  <strong className="light-blue-text">1er juin</strong>{" "}
+                  <strong className="red-text">2019</strong> pour la saison
+                  suivante, ce qui nous permet de répondre au mieux aux souhaits
+                  des parents en terme de lieu et d'horaire demandés pour les
+                  leçons.
+                </li>
+                <li className="my-4">
+                  Elles s'accompagnent normalement du règlement correspondant
+                  [un paiement fractionné est possible], les règlements ne sont
+                  encaissés qu'au moment du démarrage effectif des cours en
+                  Octobre.
+                </li>
+                <li className="my-4">
+                  Les inscriptions s'arrêtent normalement au début des cours fin
+                  Septembre début Octobre, mais des inscriptions peuvent être
+                  prises en compte en cours de saison.
+                </li>
+              </ul>
             </MDBCol>
-            <MDBCol md="9">
-              <MDBTabContent activeItem={this.state.items["vertical"]}>
-                <MDBTabPane tabId="1">
-                  <MDBCardBody>
-                    <MDBCardTitle>Downloads</MDBCardTitle>
-                    <MDBCardText>Completely legal</MDBCardText>
-                  </MDBCardBody>
-                </MDBTabPane>
-                <MDBTabPane tabId="2">
-                  <MDBCardBody>
-                    <MDBCardTitle>Orders & Invoices</MDBCardTitle>
-                    <MDBCardText>
-                      "Hello? Is it me you're looking for?"
-                    </MDBCardText>
-                  </MDBCardBody>
-                </MDBTabPane>
-                <MDBTabPane tabId="3">
-                  <MDBCardBody>
-                    <MDBCardTitle>Billing Details</MDBCardTitle>
-                    <MDBCardText>
-                      Time to pay{" "}
-                      <MDBBtn className="ml-3" color="primary">
-                        pay
-                      </MDBBtn>
-                    </MDBCardText>
-                  </MDBCardBody>
-                </MDBTabPane>
-              </MDBTabContent>
-            </MDBCol>
+            <MDBCol md="6">sfd</MDBCol>
           </MDBRow>
         </MDBContainer>
       </>
