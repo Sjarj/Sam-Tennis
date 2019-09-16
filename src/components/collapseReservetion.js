@@ -77,18 +77,6 @@ class CollapseReservation extends Component {
                 Au club house
               </Link>
             </MDBNavItem>
-            <MDBNavItem>
-              <Link
-                className={`nav-link ${
-                  this.state.activeItemClassicTabs3 === "4" ? "active" : ""
-                }`}
-                onClick={this.toggleClassicTabs3("4")}
-              >
-                <MDBIcon icon="star" size="2x" />
-                <br />
-                Be Awesome
-              </Link>
-            </MDBNavItem>
           </MDBNav>
           <MDBTabContent
             className="card mb-5"
@@ -188,7 +176,7 @@ class CollapseReservation extends Component {
                       {" "}
                       Son Identifiant composé de : son{" "}
                       <strong className="red-text">NOM</strong> puis son{" "}
-                      <strong className="light-blue-text"> PRENOMS </strong>en
+                      <strong className="light-blue-text"> PRENOM </strong>en
                       laissant un espace entre les deux.
                     </li>
                     <li className="mt-1">Son Mot de passe</li>
@@ -198,18 +186,27 @@ class CollapseReservation extends Component {
             </MDBTabPane>
             <MDBTabPane tabId="3">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                odit magnam minima, soluta doloribus reiciendis molestiae
-                placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora,
-                placeat ratione porro voluptate odit minima.
+                Les Horaires d'ouverture de notre{" "}
+                <strong className="light-blue-text">Club </strong>{" "}
+                <strong className="red-text">House </strong> sont les suivants:
               </p>
-            </MDBTabPane>
-            <MDBTabPane tabId="4">
               <p>
-                Quisquam aperiam, pariatur. Tempora, placeat ratione porro
-                voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                reiciendis molestiae placeat unde eos molestias.
+                {" "}
+                Le <strong className="light-blue-text">Matin</strong> tous les
+                jours de 9h à 12h30 sauf le Mardi fermé.
+              </p>
+              <p>
+                <strong className="red-text ">L'Après-midi </strong>:
+                <ul>
+                  <li>
+                    De Avril à Septembre. 14h à 20h du Lundi au Samedi, de 14h à
+                    19h le Dimanche.
+                  </li>
+                  <li>
+                    De Octobre à Mars. 14h à 19h du Lundi au Samedi, de 14h à
+                    18h le Dimanche.
+                  </li>
+                </ul>
               </p>
             </MDBTabPane>
           </MDBTabContent>
