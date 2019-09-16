@@ -77,7 +77,32 @@ class PillsInscription extends Component {
                 </li>
               </ul>
             </MDBCol>
-            <MDBCol md="6">sfd</MDBCol>
+            <MDBCol md="6">
+              <h5 className="h5-responsive text-justify text-center red-text my-5">
+                Inscriptions de nouveaux adhérents.
+              </h5>
+              <p>
+                Elles sont possibles tout au long de la saison accompagnées du
+                règlement correspondant. En fonction de la date d'inscription
+                des dérogations à nos tarifs sont possibles.
+              </p>
+              <h5 className="h5-responsive text-justify text-center red-text my-5">
+                Inscriptions de nouveaux adhérents.
+              </h5>
+              <p>
+                Le Renouvellement des cotisations pour les adhérents déjà
+                inscrits a lieu en Octobre.
+              </p>
+            </MDBCol>
+            <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+              Les règlements peuvent être des chèque bancaires, des espèces, des
+              coupons sport ou des chèques vacances. Ils peuvent être
+              fractionnés et, par ailleurs les aides éventuelles, des
+              collectivités locales, des comités d'établissement, sont prises en
+              compte. Ils correspondent à nos tarifs pour la saison, mais ces
+              derniers ne peuvent couvrir tous les cas de figure. Aussi des
+              dérogations sont possibles pour les cas de figure non couverts.
+            </p>
           </MDBRow>
         </MDBContainer>
       </>
