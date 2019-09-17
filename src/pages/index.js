@@ -486,67 +486,19 @@ const IndexPage = () => (
 
           <div className="row wow fadeIn" data-wow-delay="0.4s">
             <div className="col-md-8 mb-5">
-              <form>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="md-form mb-0">
-                      <div className="md-form mb-0">
-                        <input
-                          type="text"
-                          id="form41"
-                          className="form-control"
-                        />
-                        <label htmlFor="form41" className="">
-                          Your name
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-md-6">
-                    <div className="md-form mb-0">
-                      <div className="md-form mb-0">
-                        <input
-                          type="text"
-                          id="form52"
-                          className="form-control"
-                        />
-                        <label htmlFor="form52" className="">
-                          Your email
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="md-form mb-0">
-                      <input type="text" id="form51" className="form-control" />
-                      <label htmlFor="form51" className="">
-                        Subject
-                      </label>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="md-form mb-0">
-                      <textarea
-                        type="text"
-                        id="form76"
-                        className="md-textarea form-control"
-                        rows="3"
-                      ></textarea>
-                      <label htmlFor="form76">Your message</label>
-                    </div>
-                  </div>
-                </div>
-              </form>
-
-              <div className="text-center text-md-left mt-4">
-                <a className="btn btn-primary">Send</a>
+              <div
+                id="map-container"
+                className="rounded z-depth-1-half map-container"
+                style={{ height: "400px" }}
+              >
+                <iframe
+                  src="https://www.google.com/maps/d/embed?mid=1Dorktxauq6Ct760lqcbWNCR0NRX1sxod"
+                  title="This is a unique title"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  style={{ border: 0 }}
+                />
               </div>
             </div>
 
