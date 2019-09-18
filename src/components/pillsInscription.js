@@ -87,7 +87,7 @@ class PillsInscription extends Component {
                 des dérogations à nos tarifs sont possibles.
               </p>
               <h5 className="h5-responsive text-justify text-center red-text my-5">
-                Inscriptions de nouveaux adhérents.
+                Inscriptions autres.
               </h5>
               <p>
                 Le Renouvellement des cotisations pour les adhérents déjà
