@@ -471,18 +471,8 @@ const IndexPage = () => (
         <hr className="between-sections" />
         <section id="contact" className="section mb-4">
           <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn">
-            Contact us
+            Contact
           </h1>
-
-          <p
-            className="text-center w-responsive mx-auto mb-5 wow fadeIn"
-            data-wow-delay="0.2s"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur accusamus
-            veniam.{" "}
-          </p>
 
           <div className="row wow fadeIn" data-wow-delay="0.4s">
             <div className="col-md-8 mb-5">
@@ -502,21 +492,29 @@ const IndexPage = () => (
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 mt-5">
               <ul className="contact-icons list-unstyled text-center">
                 <li>
-                  <i className="fas fa-map-marker-alt fa-2x"></i>
-                  <p>New York, NY 10012, USA</p>
+                  <i
+                    className="fas fa-map-marker-alt fa-2x"
+                    style={{ color: `red` }}
+                  ></i>
+                  <p>60 Avenue du Truc, 33700 Mérignac</p>
                 </li>
 
                 <li>
-                  <i className="fas fa-phone fa-2x"></i>
-                  <p>+ 01 234 567 89</p>
-                </li>
-
-                <li>
-                  <i className="fas fa-envelope fa-2x"></i>
-                  <p>contact@mdbootstrap.com</p>
+                  <i
+                    className="fas fa-phone fa-2x"
+                    style={{ color: `blue` }}
+                  ></i>
+                  <p>
+                    {" "}
+                    <address>
+                      <a href="tel:+330556974385" style={{ color: `black` }}>
+                        05.56.97.43.85
+                      </a>
+                    </address>
+                  </p>
                 </li>
               </ul>
             </div>
