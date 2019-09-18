@@ -1,5 +1,5 @@
 import React from "react"
-import { MDBRow, MDBCol, MDBBadge } from "mdbreact"
+import { MDBRow, MDBCol, MDBBadge, MDBAnimation } from "mdbreact"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PillsPractices from "../components/pillsPtractices"
@@ -99,20 +99,20 @@ const IndexPage = () => (
             <div className="row smooth-scroll">
               <div className="col-md-12">
                 <div className="white-text text-center">
-                  <h2 className="display-3 font-weight-bold wow fadeIn">
-                    <strong className="light-blue-text">SAM </strong>
-                    <strong className="red-text">TENNIS</strong>
-                  </h2>
-                  <h3 className="wow fadeIn" data-wow-delay="0.2s">
-                    L'une des 28 sections sportives du SAM OMNISPORTS.
-                  </h3>
-                  <a
-                    href="#about"
-                    className="btn btn-outline-white wow fadeIn"
-                    data-wow-delay="0.4s"
-                  >
-                    Rencontre notre équipe
-                  </a>
+                  <MDBAnimation reveal type="fadeIn">
+                    <h2 className="display-3 font-weight-bold ">
+                      <strong className="light-blue-text">SAM </strong>
+                      <strong className="red-text">TENNIS</strong>
+                    </h2>
+                  </MDBAnimation>
+                  <MDBAnimation reveal type="fadeIn" delay="0.2s">
+                    <h3>L'une des 28 sections sportives du SAM OMNISPORTS.</h3>
+                  </MDBAnimation>
+                  <MDBAnimation reveal type="fadeIn" delay="0.4s">
+                    <a href="#about" className="btn btn-outline-white">
+                      Rencontre notre équipe
+                    </a>
+                  </MDBAnimation>
                 </div>
               </div>
             </div>
@@ -124,107 +124,112 @@ const IndexPage = () => (
     <main>
       <div className="container ">
         <section id="about" className="section py-4">
-          <h1 className="section-heading text-center mb-5 my-5 mb-4 font-weight-bold wow fadeIn">
-            Nos installations
-          </h1>
+          <MDBAnimation reveal type="fadeIn">
+            <h1 className="section-heading text-center mb-5 my-5 mb-4 font-weight-bold ">
+              Nos installations
+            </h1>
+          </MDBAnimation>
+          <MDBAnimation reveal type="fadeIn" delay="0.2s">
+            <div className="row mb-5">
+              <div className="col-lg-4 mb-2">
+                <img
+                  src="https://images.unsplash.com/photo-1526307616774-60d0098f7642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=472&w=711&q=60"
+                  alt="court de tennis"
+                  className="z-depth-1 img-fluid"
+                />
+              </div>
 
-          <div className="row mb-5 wow fadeIn" data-wow-delay="0.2s">
-            <div className="col-lg-4 mb-2">
-              <img
-                src="https://images.unsplash.com/photo-1526307616774-60d0098f7642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=472&w=711&q=60"
-                alt="court de tennis"
-                className="z-depth-1 img-fluid"
-              />
+              <div className="col-lg-8 mb-2">
+                <p className="lead">
+                  Nos installations sportives sont sur 2 sites à Mérignac :
+                </p>
+                <p align="justify" className="">
+                  <span>
+                    <strong className="light-blue-text">
+                      SITE DE ROBERT BRETTES
+                    </strong>{" "}
+                    : Un Club House ouvert 7 jrs / 7 jrs avec{" "}
+                    <strong className="red-text">
+                      8 Cours Extérieurs éclairés{" "}
+                    </strong>{" "}
+                    Quartier Pin Galant - Piscine - Stade :
+                  </span>
+                </p>
+                <MDBRow>
+                  <MDBCol size="6" className="my-2">
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        2
+                      </MDBBadge>{" "}
+                      Courts en{" "}
+                      <strong className="light-blue-text">Terre battue </strong>
+                      .
+                    </div>
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        4
+                      </MDBBadge>{" "}
+                      Courts en{" "}
+                      <strong className="light-blue-text"> Quick </strong>.
+                    </div>
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        1
+                      </MDBBadge>{" "}
+                      Terrain de Pétanque .
+                    </div>
+                  </MDBCol>
+                  <MDBCol size="6" className="my-2">
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        2
+                      </MDBBadge>{" "}
+                      Courts en{" "}
+                      <strong className="light-blue-text">Soft </strong> Type de
+                      Terre battue.
+                    </div>
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        3
+                      </MDBBadge>{" "}
+                      Courts de Mini-Tennis.
+                    </div>
+                    <div style={{ lineHeight: 1.8 }}>
+                      <MDBBadge color="primary" pill className="mr-2">
+                        1
+                      </MDBBadge>{" "}
+                      Table de Ping-Pong et Un Baby Foot.
+                    </div>
+                  </MDBCol>
+                </MDBRow>
+
+                <p align="justify" className="mt-3 ">
+                  <strong className="red-text">SITE DE LA ROSERAIE </strong> :
+                  Les Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2
+                  minutes en voiture du Stade Robert Brettes, au 23 Avenue du
+                  Château d'Eau - 33700 Mérignac Quartier Capeyron :
+                  <ul style={{ listStyle: `none`, marginTop: `0.9rem` }}>
+                    <li>
+                      <MDBBadge color="danger" pill className="mr-2">
+                        4
+                      </MDBBadge>{" "}
+                      Courts <strong className="red-text">Couverts</strong> en{" "}
+                      <strong className="red-text">Terre battue</strong>
+                    </li>
+
+                    <li>
+                      <MDBBadge color="danger" pill className="mr-2">
+                        1
+                      </MDBBadge>{" "}
+                      <strong className="red-text">Restaurant</strong> de 65
+                      couverts, ouvert du Lundi au Samedi, midis et soirs, à
+                      prix raisonnables.
+                    </li>
+                  </ul>
+                </p>
+              </div>
             </div>
-
-            <div className="col-lg-8 mb-2">
-              <p className="lead">
-                Nos installations sportives sont sur 2 sites à Mérignac :
-              </p>
-              <p align="justify" className="">
-                <span>
-                  <strong className="light-blue-text">
-                    SITE DE ROBERT BRETTES
-                  </strong>{" "}
-                  : Un Club House ouvert 7 jrs / 7 jrs avec{" "}
-                  <strong className="red-text">
-                    8 Cours Extérieurs éclairés{" "}
-                  </strong>{" "}
-                  Quartier Pin Galant - Piscine - Stade :
-                </span>
-              </p>
-              <MDBRow>
-                <MDBCol size="6" className="my-2">
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      2
-                    </MDBBadge>{" "}
-                    Courts en{" "}
-                    <strong className="light-blue-text">Terre battue </strong>.
-                  </div>
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      4
-                    </MDBBadge>{" "}
-                    Courts en{" "}
-                    <strong className="light-blue-text"> Quick </strong>.
-                  </div>
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      1
-                    </MDBBadge>{" "}
-                    Terrain de Pétanque .
-                  </div>
-                </MDBCol>
-                <MDBCol size="6" className="my-2">
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      2
-                    </MDBBadge>{" "}
-                    Courts en <strong className="light-blue-text">Soft </strong>{" "}
-                    Type de Terre battue.
-                  </div>
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      3
-                    </MDBBadge>{" "}
-                    Courts de Mini-Tennis.
-                  </div>
-                  <div style={{ lineHeight: 1.8 }}>
-                    <MDBBadge color="primary" pill className="mr-2">
-                      1
-                    </MDBBadge>{" "}
-                    Table de Ping-Pong et Un Baby Foot.
-                  </div>
-                </MDBCol>
-              </MDBRow>
-
-              <p align="justify" className="mt-3 ">
-                <strong className="red-text">SITE DE LA ROSERAIE </strong> : Les
-                Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes
-                en voiture du Stade Robert Brettes, au 23 Avenue du Château
-                d'Eau - 33700 Mérignac Quartier Capeyron :
-                <ul style={{ listStyle: `none`, marginTop: `0.9rem` }}>
-                  <li>
-                    <MDBBadge color="danger" pill className="mr-2">
-                      4
-                    </MDBBadge>{" "}
-                    Courts <strong className="red-text">Couverts</strong> en{" "}
-                    <strong className="red-text">Terre battue</strong>
-                  </li>
-
-                  <li>
-                    <MDBBadge color="danger" pill className="mr-2">
-                      1
-                    </MDBBadge>{" "}
-                    <strong className="red-text">Restaurant</strong> de 65
-                    couverts, ouvert du Lundi au Samedi, midis et soirs, à prix
-                    raisonnables.
-                  </li>
-                </ul>
-              </p>
-            </div>
-          </div>
+          </MDBAnimation>
         </section>
       </div>
 
@@ -236,18 +241,21 @@ const IndexPage = () => (
       >
         <div className="flex-center rgba-teal-strong mask">
           <div className="white-text smooth-scroll">
-            <h2 className="h2-responsive mb-5 wow fadeIn">
-              Les différentes disciplines du club
-            </h2>
+            <MDBAnimation reveal type="fadeIn">
+              <h2 className="h2-responsive mb-5">
+                Les différentes disciplines du club
+              </h2>
+            </MDBAnimation>
             <div className="text-center">
-              <a
-                href="#timetable"
-                className="btn btn-outline-white wow fadeIn"
-                data-offset="100"
-                data-wow-delay="0.2s"
-              >
-                Voir les pratiques
-              </a>
+              <MDBAnimation reveal type="fadeIn" delay="0.2">
+                <a
+                  href="#timetable"
+                  className="btn btn-outline-white"
+                  data-offset="100"
+                >
+                  Voir les pratiques
+                </a>
+              </MDBAnimation>
             </div>
           </div>
         </div>
@@ -255,25 +263,26 @@ const IndexPage = () => (
 
       <div className="container">
         <section id="team" className="section team-section pt-3">
-          <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold wow fadeIn">
-            Notre équipe
-          </h1>
-
-          <p
-            className="text-center w-responsive mx-auto wow fadeIn my-5 lead"
-            data-wow-delay="0.2s"
-          >
-            Est composée d'un comité directeur, d'administratifs ayant en charge
-            l'accueil de nos adhérents pour les inscriptions, la réservation et
-            la pratique de nos différentes activités. Des Techniciens ayant en
-            charge l'enseignement du Tennis à tous les niveaux et,
-            l'entrainement et l'encadrement de nos compétiteurs individuels et
-            de nos équipes :
-          </p>
-
-          <div className="row text-center wow fadeIn" data-wow-delay="0.4s">
-            <SliderTeam />
-          </div>
+          <MDBAnimation reveal type="fadeIn">
+            <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
+              Notre équipe
+            </h1>
+          </MDBAnimation>
+          <MDBAnimation reveal type="fadeIn" delay="0.2s">
+            <p className="text-center w-responsive mx-auto  my-5 lead">
+              Est composée d'un comité directeur, d'administratifs ayant en
+              charge l'accueil de nos adhérents pour les inscriptions, la
+              réservation et la pratique de nos différentes activités. Des
+              Techniciens ayant en charge l'enseignement du Tennis à tous les
+              niveaux et, l'entrainement et l'encadrement de nos compétiteurs
+              individuels et de nos équipes :
+            </p>
+          </MDBAnimation>
+          <MDBAnimation reveal type="fadeIn" delay="0.4s">
+            <div className="row text-center">
+              <SliderTeam />
+            </div>
+          </MDBAnimation>
         </section>
 
         <hr className="between-sections" />
