@@ -530,9 +530,8 @@ const IndexPage = () => (
                 className="h3-responsive white-text mt-4 wow fadeIn"
                 data-wow-delay="0.2s"
               >
-                <i className="fas fa-quote-left" aria-hidden="true"></i> When
-                people succeed, it is because of hard work. Luck has nothing to
-                do with success.{" "}
+                <i className="fas fa-quote-left" aria-hidden="true"></i> On
+                gagne plus avec le coeur, avec la volonté qu'avec autre chose.{" "}
                 <i className="fas fa-quote-right" aria-hidden="true"></i>
               </h3>
             </li>
@@ -541,7 +540,7 @@ const IndexPage = () => (
                 className="font-italic mt-4 white-text wow fadeIn"
                 data-wow-delay="0.4s"
               >
-                ~ Diego Maradona
+                ~ Rafael Nadal
               </h4>
             </li>
           </ul>
