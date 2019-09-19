@@ -375,13 +375,28 @@ class PillsPractices extends Component {
                           <strong className="light-blue-text">
                             Michel PONTICO{" "}
                           </strong>
-                          : 06.19.64.49.06 michelpontico2012@gmail.com
+                          :{" "}
+                          <a
+                            href="tel:+330619644906"
+                            style={{ color: `black` }}
+                          >
+                            {" "}
+                            06.19.64.49.06
+                          </a>{" "}
+                          michelpontico2012@gmail.com
                         </p>
                       </li>
                       <li>
                         <p>
                           <strong className="red-text"> Luc FINOEL </strong>:
-                          06.83.44.96.47 lfinoel@gmail.com
+                          <a
+                            href="tel:+330683449647"
+                            style={{ color: `black` }}
+                          >
+                            {" "}
+                            06.83.44.96.47
+                          </a>{" "}
+                          lfinoel@gmail.com
                         </p>
                       </li>
                       <li>
@@ -390,7 +405,14 @@ class PillsPractices extends Component {
                             {" "}
                             Benjamin CATTAN{" "}
                           </strong>
-                          : 06.59.36.19.76 maitrecat@hotmail.com
+                          :{" "}
+                          <a
+                            href="tel:+330659361976"
+                            style={{ color: `black` }}
+                          >
+                            06.59.36.19.76
+                          </a>{" "}
+                          maitrecat@hotmail.com
                         </p>
                       </li>
                     </ul>
