@@ -527,11 +527,11 @@ const IndexPage = () => (
                     ></i>
                     <p>
                       {" "}
-                      <address>
+                      
                         <a href="tel:+330556974385" style={{ color: `black` }}>
                           05.56.97.43.85
                         </a>
-                      </address>
+                      
                     </p>
                   </li>
                 </ul>
