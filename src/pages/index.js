@@ -527,11 +527,9 @@ const IndexPage = () => (
                     ></i>
                     <p>
                       {" "}
-                      
-                        <a href="tel:+330556974385" style={{ color: `black` }}>
-                          05.56.97.43.85
-                        </a>
-                      
+                      <a href="tel:+330556974385" style={{ color: `black` }}>
+                        05.56.97.43.85
+                      </a>
                     </p>
                   </li>
                 </ul>
