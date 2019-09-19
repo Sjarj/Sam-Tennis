@@ -85,7 +85,10 @@ const SliderTeam = () => {
                 </div>
                 <h4> Michel PONTICO </h4>
                 <h5>Directeur Sportif</h5>
-                <a href="tel:+330619644906"> 06.19.64.49.06</a>
+                <a href="tel:+330619644906" style={{ color: `black` }}>
+                  {" "}
+                  06.19.64.49.06
+                </a>
               </div>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
@@ -98,7 +101,9 @@ const SliderTeam = () => {
                 </div>
                 <h4> Luc FINOËL</h4>
                 <h5>Coach sportif</h5>
-                <a href="tel:+330683449647">06.83.44.96.47</a>
+                <a href="tel:+330683449647" style={{ color: `black` }}>
+                  06.83.44.96.47
+                </a>
               </div>
               <div className="col-md-4 mb-5">
                 <div className="avatar mx-auto mb-4">
@@ -109,7 +114,9 @@ const SliderTeam = () => {
                 </div>
                 <h4>Benjamin CATTAN</h4>
                 <h5>Coach sportif</h5>
-                <a href="tel:+330659361976">06.59.36.19.76</a>
+                <a href="tel:+330659361976" style={{ color: `black` }}>
+                  06.59.36.19.76
+                </a>
               </div>
               <div className="col-md-4 mb-5">
                 <div className="avatar mx-auto mb-4">
