@@ -80,7 +80,7 @@ const Header = () => {
         className="view jarallax"
         data-jarallax='{"speed": 0.2}'
         style={{
-          backgroundImage: `${`url('https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')`}`,
+          backgroundImage: `${`url('https://images.unsplash.com/photo-1570192164067-6f2d28702ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')`}`,
           backgroundRepeat: `no-repeat`,
           backgroundSize: `cover`,
           backgroundPosition: `center`,
@@ -93,8 +93,8 @@ const Header = () => {
                 <div className="white-text text-center">
                   <MDBAnimation reveal type="fadeIn">
                     <h2 className="display-3 font-weight-bold ">
-                      <strong className="light-blue-text">SAM </strong>
-                      <strong className="red-text">TENNIS</strong>
+                      <strong>SAM </strong>
+                      <strong>TENNIS</strong>
                     </h2>
                   </MDBAnimation>
                   <MDBAnimation reveal type="fadeIn" delay="0.2s">
