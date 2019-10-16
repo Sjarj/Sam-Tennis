@@ -11,12 +11,6 @@ import { Global, css } from "@emotion/core"
 import { MDBAnimation } from "mdbreact"
 import Header from "./header"
 
-// .carousel .carousel-indicators .indicador{
-//   background-color: fuchsia;
-//   width: 150px;
-//   border-radius: 0%;
-// }
-
 const Layout = ({ children }) => {
   return (
     <>
@@ -25,6 +19,10 @@ const Layout = ({ children }) => {
           .carousel .btn-floating {
             background-color: rgba(96, 125, 139, 0.7) !important;
           }
+          #practice li:before {
+            content: '✔';
+            margin-left: -1em;
+            margin-right: .5rem;
         `}
       />
       <Header />
