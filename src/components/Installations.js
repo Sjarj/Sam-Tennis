@@ -21,10 +21,10 @@ const Installations = () => {
             </div>
 
             <div className="col-lg-8 mb-2">
-              <p className="lead grey-text font-weight-bolder mb-4">
+              <p className="lead  mb-4">
                 Nos installations sportives sont sur 2 sites à Mérignac :
               </p>
-              <p align="justify" className="grey-text font-weight-bolder">
+              <p align="justify" className="">
                 <strong className="light-blue-text">
                   SITE DE ROBERT BRETTES
                 </strong>{" "}
@@ -32,7 +32,7 @@ const Installations = () => {
                 éclairés Quartier Pin Galant - Piscine - Stade :
               </p>
               <MDBRow>
-                <MDBCol size="6" className="my-2 grey-text font-weight-bolder">
+                <MDBCol size="6" className="my-2 ">
                   <div style={{ lineHeight: 1.8 }}>
                     <MDBBadge color="primary" pill className="mr-2">
                       2
@@ -52,7 +52,7 @@ const Installations = () => {
                     Terrain de Pétanque .
                   </div>
                 </MDBCol>
-                <MDBCol size="6" className="my-2 grey-text font-weight-bolder">
+                <MDBCol size="6" className="my-2 ">
                   <div style={{ lineHeight: 1.8 }}>
                     <MDBBadge color="primary" pill className="mr-2">
                       2
@@ -74,7 +74,7 @@ const Installations = () => {
                 </MDBCol>
               </MDBRow>
 
-              <p align="justify" className="mt-3 grey-text font-weight-bolder ">
+              <p align="justify" className="mt-3  ">
                 <strong className="red-text">SITE DE LA ROSERAIE </strong> : Les
                 Cours Couverts de Tennis sont ouverts 7 jrs / 7 jrs à 2 minutes
                 en voiture du Stade Robert Brettes, au 23 Avenue du Château

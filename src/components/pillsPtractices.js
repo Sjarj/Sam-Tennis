@@ -39,7 +39,7 @@ class PillsPractices extends Component {
           </h1>
         </MDBAnimation>
         <MDBAnimation reveal type="fadeIn">
-          <p className="text-center w-responsive mx-auto my-5 lead grey-text font-weight-bolder">
+          <p className="text-center w-responsive mx-auto my-5 lead ">
             Le club <strong className="light-blue-text">SAM</strong>
             <strong className="red-text"> TENNIS</strong> offre la possibilité
             aux adhérents différents aspetcs de la pratiques du tennis de
@@ -87,7 +87,7 @@ class PillsPractices extends Component {
                 </MDBNav>
                 <MDBTabContent activeItem={this.state.items["default"]}>
                   <MDBTabPane tabId="1">
-                    <p className="grey-text font-weight-bolder">
+                    <p className="">
                       <strong className="light-blue-text">
                         LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS
                         COUVERTS, S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
@@ -113,7 +113,7 @@ class PillsPractices extends Component {
                         </li>
                       </ul>
                     </p>
-                    <p className="my-3 grey-text font-weight-bolder">
+                    <p className="my-3 ">
                       Nos courts extérieurs sont disponibles pour du Loisir
                       chaque jour toute la journée{" "}
                       <strong>
@@ -122,13 +122,13 @@ class PillsPractices extends Component {
                       </strong>
                       .
                     </p>
-                    <p className="my-3 grey-text font-weight-bolder">
+                    <p className="my-3 ">
                       Nos courts couverts compte tenu de l'école de tennis des
                       courts collectifs adultes et jeunes sont disponibles pour
                       le loisir suivant des créneaux différents en période et
                       hors période scolaire.
                     </p>
-                    <p className="my-3 grey-text font-weight-bolder">
+                    <p className="my-3 ">
                       Si vous voulez jouer mais n'avez pas de partenaire,
                       <strong className="light-blue-text">
                         {" "}
@@ -151,12 +151,12 @@ class PillsPractices extends Component {
                           className="text-center mt-4"
                           style={{ maxWidth: `20rem` }}
                         />
-                        <p className="text-center grey-text font-weight-bolder">
+                        <p className="text-center ">
                           Tous les adhérents de notre Club qui le souhaitent ont
                           la possibilité de participer à des compétitions
                           correspondant à leur niveau.
                         </p>
-                        <ul className="grey-text font-weight-bolder">
+                        <ul className="">
                           <li className="my-2">
                             <strong className="light-blue-text">
                               {" "}
@@ -229,7 +229,7 @@ class PillsPractices extends Component {
                           className="text-center mt-4"
                           style={{ maxWidth: `20rem` }}
                         />
-                        <p className="text-center grey-text font-weight-bolder">
+                        <p className="text-center ">
                           Pour faire votre choix, nous vous donnons les liens
                           suivants :
                         </p>
@@ -247,7 +247,7 @@ class PillsPractices extends Component {
                               <MDBMedia heading className="light-blue-text">
                                 Fédération Française de Tennis
                               </MDBMedia>
-                              <span className="grey-text font-weight-bolder">
+                              <span className="">
                                 Retrouvez toute l'actualité du tennis, du padel,
                                 du beach tennis, du paratennis et des équipes de
                                 France sur le site de la Fédération française de
@@ -271,7 +271,7 @@ class PillsPractices extends Component {
                               <MDBMedia heading className="light-blue-text">
                                 Ligue de Guyenne de Tennis
                               </MDBMedia>
-                              <span className="grey-text font-weight-bolder">
+                              <span className="">
                                 Le but La ligue de Guyenne est d'organiser et de
                                 développer la pratique du tennis sur son
                                 territoire ainsi que d'encourager et de
@@ -295,7 +295,7 @@ class PillsPractices extends Component {
                               <MDBMedia heading className="light-blue-text">
                                 Comité Départemental de Gironde
                               </MDBMedia>
-                              <span className="grey-text font-weight-bolder">
+                              <span className="">
                                 Retrouvez toutes les informations sur
                                 l'organisation du Tennis en Gironde.
                               </span>
@@ -306,7 +306,7 @@ class PillsPractices extends Component {
                     </MDBRow>
                   </MDBTabPane>
                   <MDBTabPane tabId="3">
-                    <p className="text-center w-responsive mx-auto wow fadeIn mt-2 mb-4 grey-text font-weight-bolder">
+                    <p className="text-center w-responsive mx-auto wow fadeIn mt-2 mb-4 ">
                       <strong>L'enseignement </strong>couvre la découverte,
                       l'initiation, le perfectionnement et l'entraînement à la
                       compétition. Il est animé et encadré par{" "}
@@ -327,7 +327,7 @@ class PillsPractices extends Component {
                           </div>
 
                           <div className="card-body streakd">
-                            <ul className="list-unstyled grey-text font-weight-bolder">
+                            <ul className="list-unstyled ">
                               <li>
                                 <p>pour les meilleurs compétiteurs.</p>
                               </li>
@@ -346,7 +346,7 @@ class PillsPractices extends Component {
                           </div>
 
                           <div className="card-body streakd">
-                            <ul className="list-unstyled grey-text font-weight-bolder">
+                            <ul className="list-unstyled ">
                               <li>
                                 <p>
                                   Mercredi de 10h à 12h <br /> et de 13h à 18h.
@@ -380,7 +380,7 @@ class PillsPractices extends Component {
                           </div>
 
                           <div className="card-body streakd">
-                            <ul className="list-unstyled grey-text font-weight-bolder">
+                            <ul className="list-unstyled ">
                               <li>
                                 <p>
                                   <strong className="light-blue-text">
@@ -425,17 +425,14 @@ class PillsPractices extends Component {
                           </div>
 
                           <div className="card-body streakd">
-                            <ul className="list-unstyled grey-text font-weight-bolder">
+                            <ul className="list-unstyled ">
                               <li>
                                 <p>
                                   <strong className="light-blue-text">
                                     Michel PONTICO{" "}
                                   </strong>
                                   :{" "}
-                                  <a
-                                    href="tel:+330619644906"
-                                    className="grey-text font-weight-bolder"
-                                  >
+                                  <a href="tel:+330619644906" className="">
                                     {" "}
                                     06.19.64.49.06
                                   </a>{" "}
@@ -449,10 +446,7 @@ class PillsPractices extends Component {
                                     Luc FINOEL{" "}
                                   </strong>
                                   :
-                                  <a
-                                    href="tel:+330683449647"
-                                    className="grey-text font-weight-bolder"
-                                  >
+                                  <a href="tel:+330683449647" className="">
                                     {" "}
                                     06.83.44.96.47
                                   </a>{" "}
@@ -466,10 +460,7 @@ class PillsPractices extends Component {
                                     Benjamin CATTAN{" "}
                                   </strong>
                                   :{" "}
-                                  <a
-                                    href="tel:+330659361976"
-                                    className="grey-text font-weight-bolder"
-                                  >
+                                  <a href="tel:+330659361976" className="">
                                     06.59.36.19.76
                                   </a>{" "}
                                   maitrecat@hotmail.com
@@ -480,7 +471,7 @@ class PillsPractices extends Component {
                         </div>
                       </div>
 
-                      <p className="grey-text font-weight-bolder">
+                      <p className="">
                         <h6 className="h6-responsive font-weight-bold black-text">
                           {" "}
                           L'inscription à l'enseignement du tennis permet par

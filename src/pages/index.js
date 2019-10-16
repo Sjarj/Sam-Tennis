@@ -27,13 +27,7 @@ const IndexPage = () => (
 
         <hr className="between-sections" />
 
-        <section id="tickets" className="section">
-          <MDBAnimation reveal type="fadeIn" delay="0.4s">
-            <div className="row text-center">
-              <TabPrices />
-            </div>
-          </MDBAnimation>
-        </section>
+        <TabPrices />
 
         <hr className="between-sections" />
 

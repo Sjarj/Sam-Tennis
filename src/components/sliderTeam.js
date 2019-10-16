@@ -17,7 +17,7 @@ const SliderTeam = () => {
         </h1>
       </MDBAnimation>
       <MDBAnimation reveal type="fadeIn" delay="0.2s">
-        <p className="text-center w-responsive mx-auto  my-5 lead grey-text font-weight-bolder ">
+        <p className="text-center w-responsive mx-auto  my-5 lead  ">
           Est composée d'un comité directeur, d'administratifs ayant en charge
           l'accueil de nos adhérents pour les inscriptions, la réservation et la
           pratique de nos différentes activités. Des Techniciens ayant en charge
@@ -40,7 +40,7 @@ const SliderTeam = () => {
               <MDBCarouselInner>
                 <MDBRow>
                   <MDBCarouselItem itemId="1">
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
@@ -52,7 +52,7 @@ const SliderTeam = () => {
                       <h5>Président</h5>
                     </div>
 
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
@@ -64,7 +64,7 @@ const SliderTeam = () => {
                       <h5>Trésorière</h5>
                     </div>
 
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
@@ -77,7 +77,7 @@ const SliderTeam = () => {
                     </div>
                   </MDBCarouselItem>
                   <MDBCarouselItem itemId="2">
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg"
@@ -88,7 +88,7 @@ const SliderTeam = () => {
                       <h4> Virginie CLERMONTEL</h4>
                       <h5>Administratifs</h5>
                     </div>
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg"
@@ -99,7 +99,7 @@ const SliderTeam = () => {
                       <h4>Marie-Hélène DROUET </h4>
                       <h5>Administratifs</h5>
                     </div>
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
@@ -113,7 +113,7 @@ const SliderTeam = () => {
                     </div>
                   </MDBCarouselItem>
                   <MDBCarouselItem itemId="3">
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
@@ -125,7 +125,7 @@ const SliderTeam = () => {
                       <h5>Coach sportif</h5>
                       <a href="tel:+330683449647">06.83.44.96.47</a>
                     </div>
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
@@ -137,7 +137,7 @@ const SliderTeam = () => {
                       <h5>Coach sportif</h5>
                       <a href="tel:+330659361976">06.59.36.19.76</a>
                     </div>
-                    <div className="col-md-4 mb-5 grey-text font-weight-bolder">
+                    <div className="col-md-4 mb-5 ">
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
