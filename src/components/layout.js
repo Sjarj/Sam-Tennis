@@ -7,23 +7,26 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { Global, css } from "@emotion/core"
 import { MDBAnimation } from "mdbreact"
 import Header from "./header"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+// .carousel .carousel-indicators .indicador{
+//   background-color: fuchsia;
+//   width: 150px;
+//   border-radius: 0%;
+// }
 
+const Layout = ({ children }) => {
   return (
     <>
+      <Global
+        styles={css`
+          .carousel .btn-floating {
+            background-color: rgba(96, 125, 139, 0.7) !important;
+          }
+        `}
+      />
       <Header />
       <main>{children}</main>
       <footer>
