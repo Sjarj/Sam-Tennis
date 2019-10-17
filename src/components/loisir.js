@@ -1,6 +1,5 @@
 import React from "react"
-import { MDBMask, MDBView } from "mdbreact"
-import illustrationTennisman from "../images/tennis_girl.png"
+import illustrationTennisman from "../images/tennis_man.png"
 
 const Loisir = () => {
   return (
