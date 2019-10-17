@@ -44,7 +44,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Philippe BANOS Président"
                         />
                       </div>
@@ -58,7 +58,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Catherine TOULOUSE Trésorière"
                         />
                       </div>
@@ -72,7 +72,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Stéphanie THOMAS Secrétaire"
                         />
                       </div>
@@ -87,7 +87,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(6).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Virginie CLERMONTEL Administratifs"
                         />
                       </div>
@@ -100,7 +100,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Marie-Hélène DROUET Administratifs"
                         />
                       </div>
@@ -113,12 +113,12 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Michel PONTICO Directeur Sportif"
                         />
                       </div>
                       <h4 className="indigo-text"> Michel PONTICO </h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue-grey-text font-weight-bolder ">
                         Directeur Sportif
                       </h5>
                       <a href="tel:+330619644906" className="blue-grey-text">
@@ -132,7 +132,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Luc FINOËL Coach sportif"
                         />
                       </div>
@@ -148,7 +148,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Benjamin CATTAN Coach sportif"
                         />
                       </div>
@@ -164,7 +164,7 @@ const SliderTeam = () => {
                       <div className="avatar mx-auto mb-4">
                         <img
                           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                          className="z-depth-1 img-fluid"
+                          className="z-depth-1 img-fluid rounded"
                           alt="Mélissa LIGNE Coach sportif"
                         />
                       </div>
