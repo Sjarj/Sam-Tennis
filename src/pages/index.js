@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PillsPractices from "../components/pillsPtractices"
+import Practices from "../components/practices"
 import SliderTeam from "../components/sliderTeam"
 import TabPrices from "../components/tabPrices"
 import CollapseReservation from "../components/collapseReservetion"
@@ -20,7 +20,7 @@ const IndexPage = () => (
       <div className="container">
         <SliderTeam />
         <hr className="between-sections" />
-        <PillsPractices />
+        <Practices />
         <hr className="between-sections" />
         <TabPrices />
         <hr className="between-sections" />

@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact"
 
 class PillsInscription extends Component {

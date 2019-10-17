@@ -1,5 +1,7 @@
 import React from "react"
-import { MDBAnimation, MDBMask, MDBView } from "mdbreact"
+import { MDBAnimation } from "mdbreact"
+import Loisir from "./loisir"
+import Competition from "./competition"
 
 const pillsPtractices = () => {
   return (
@@ -17,160 +19,15 @@ const pillsPtractices = () => {
           en passant par le loisir .
         </p>
       </MDBAnimation>
-
-      <h5
-        className="text-center dark-grey-text text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
-        data-wow-delay="0.2s"
-      >
-        <strong> Loisir</strong>
-      </h5>
-
-      <div className="row">
-        <div className="col-md-5">
-          <MDBView>
-            <img
-              src="https://images.unsplash.com/photo-1567220731225-d8b05cf7e9e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1000&w=900&q=60"
-              className="img-fluid z-depth-1 rounded"
-              alt="court de tennis"
-            />
-            <MDBMask overlay="cyan-light" className="flex-center" />
-          </MDBView>
-        </div>
-
-        <div className="col-md-6 ml-lg-5 justify-content-left">
-          <hr className="line" />
-
-          <h5
-            className="text-left dark-grey-text text-center font-weight-bold pb-4 wow fadeIn"
-            data-wow-delay="0.2s"
-          >
-            <em>
-              <strong>
-                {" "}
-                LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS COUVERTS,
-                S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
-              </strong>
-            </em>
-          </h5>
-
-          <ul style={{ listStyle: `none` }} className="blue-grey-text">
-            <li> Sur place au Club House</li>
-            <li>
-              Par téléphone au :{" "}
-              <a href="tel:+330556974385" className="indigo-text">
-                05.56.97.43.85
-              </a>{" "}
-            </li>
-            <li> Par internet , voir la page RESERVATION</li>
-          </ul>
-          <p className="grey-text">
-            Nos courts extérieurs sont disponibles pour du Loisir chaque jour
-            toute la journée{" "}
-            <strong>
-              sauf les terres battues indisponibles du début de la période de
-              gel jusqu'à leur réfection au printemps
-            </strong>
-            .
-          </p>
-          <p className="grey-text">
-            Nos courts couverts compte tenu de l'école de tennis des courts
-            collectifs adultes et jeunes sont disponibles pour le loisir suivant
-            des créneaux différents en période et hors période scolaire.
-          </p>
-          <p className="grey-text">
-            Si vous voulez jouer mais n'avez pas de partenaire, Marie Hélène et
-            Virginie vous en trouvent un et nous sommes en train de constituer
-            un classeur des membres du Club consultable librement par tous{" "}
-            <strong>classement par sexe et par niveau de jeu</strong>.
-          </p>
-        </div>
-      </div>
+      <Loisir />
+      <Competition />
     </section>
   )
 }
 
 export default pillsPtractices
 
-//                   <MDBTabPane tabId="2">
-//                     <MDBRow>
-//                       <MDBCol>
-//                         <h4 className="h4-responsive text-center light-blue-text">
-//                           Compétitions par équipes
-//                         </h4>
-//                         <hr
-//                           className="text-center mt-4"
-//                           style={{ maxWidth: `20rem` }}
-//                         />
-//                         <p className="text-center ">
-//                           Tous les adhérents de notre Club qui le souhaitent ont
-//                           la possibilité de participer à des compétitions
-//                           correspondant à leur niveau.
-//                         </p>
-//                         <ul className="">
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Equipe Fanion Hommes
-//                             </strong>{" "}
-//                             en <strong>Nationale 4</strong>.
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Equipe Fanion Dames
-//                             </strong>{" "}
-//                             en <strong>DSR</strong>.
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               3 équipes Féminines
-//                             </strong>{" "}
-//                             et{" "}
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               5 équipes Masculines
-//                             </strong>{" "}
-//                             en <strong>Interclubs de Printemps </strong>.
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Équipes Masculines
-//                             </strong>{" "}
-//                             3ème et 4ème Série en{" "}
-//                             <strong>Championnat de Gironde</strong> .
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Équipes Messieurs
-//                             </strong>{" "}
-//                             [35, 45, 55, 65 ans] en{" "}
-//                             <strong>Interclubs régionaux.</strong>
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Équipes 4ème série{" "}
-//                             </strong>{" "}
-//                             féminines dans Les <strong>
-//                               Raquettes F.F.T
-//                             </strong>{" "}
-//                             .
-//                           </li>
-//                           <li className="my-2">
-//                             <strong className="light-blue-text">
-//                               {" "}
-//                               Équipes de Jeunes
-//                             </strong>{" "}
-//                             garçons et filles dans toutes les catégories d'âges
-//                             de 9/10 11/12 13/14 et 15/16 ans, dans les
-//                             différentes compétitions{" "}
-//                             <strong>départementales et régionales</strong> .
-//                           </li>
-//                         </ul>
-//                       </MDBCol>
+//
 //                       <MDBCol>
 //                         <h4 className="h4-responsive text-center light-blue-text">
 //                           Compétion Individuelle
@@ -255,6 +112,7 @@ export default pillsPtractices
 //                       </MDBCol>
 //                     </MDBRow>
 //                   </MDBTabPane>
+
 //                   <MDBTabPane tabId="3">
 //                     <p className="text-center w-responsive mx-auto wow fadeIn mt-2 mb-4 ">
 //                       <strong>L'enseignement </strong>couvre la découverte,

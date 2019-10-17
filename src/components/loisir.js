@@ -1,0 +1,76 @@
+import React from "react"
+import { MDBMask, MDBView } from "mdbreact"
+import illustrationTennisman from "../images/tennis_girl.png"
+
+const Loisir = () => {
+  return (
+    <>
+      <h5
+        className="text-center dark-grey-text text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
+        data-wow-delay="0.2s"
+      >
+        <strong> Loisir</strong>
+      </h5>
+
+      <div className="row">
+        <div className="col-md-5">
+          <img
+            src={illustrationTennisman}
+            className="w-100"
+            alt="tennis girl"
+          />
+        </div>
+
+        <div className="col-md-6 ml-lg-5 justify-content-left">
+          <hr className="line" />
+
+          <h5
+            className="text-left dark-grey-text text-center font-weight-bold pb-4 wow fadeIn"
+            data-wow-delay="0.2s"
+          >
+            <em>
+              <strong>
+                {" "}
+                LA RÉSERVATION DES COURTS EXTÉRIEURS COMME DES COURTS COUVERTS,
+                S'EFFECTUE LA VEILLE OU LE JOUR MÊME :
+              </strong>
+            </em>
+          </h5>
+
+          <ul style={{ listStyle: `none` }} className="blue-grey-text">
+            <li> Sur place au Club House</li>
+            <li>
+              Par téléphone au :{" "}
+              <a href="tel:+330556974385" className="indigo-text">
+                05.56.97.43.85
+              </a>{" "}
+            </li>
+            <li> Par internet , voir la page RESERVATION</li>
+          </ul>
+          <p className="grey-text">
+            Nos courts extérieurs sont disponibles pour du Loisir chaque jour
+            toute la journée{" "}
+            <strong>
+              sauf les terres battues indisponibles du début de la période de
+              gel jusqu'à leur réfection au printemps
+            </strong>
+            .
+          </p>
+          <p className="grey-text">
+            Nos courts couverts compte tenu de l'école de tennis des courts
+            collectifs adultes et jeunes sont disponibles pour le loisir suivant
+            des créneaux différents en période et hors période scolaire.
+          </p>
+          <p className="grey-text">
+            Si vous voulez jouer mais n'avez pas de partenaire, Marie Hélène et
+            Virginie vous en trouvent un et nous sommes en train de constituer
+            un classeur des membres du Club consultable librement par tous{" "}
+            <strong>classement par sexe et par niveau de jeu</strong>.
+          </p>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Loisir
