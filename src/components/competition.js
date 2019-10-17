@@ -88,7 +88,7 @@ const Competition = () => {
             </em>
           </h5>
           <MDBRow>
-            <MDBCol md="4" className="my-3">
+            <MDBCol lg="4" className="my-2">
               <MDBCard
                 className="card-image"
                 style={{
@@ -122,7 +122,7 @@ const Competition = () => {
               </MDBCard>
             </MDBCol>
 
-            <MDBCol md="4" className="my-3">
+            <MDBCol lg="4" className="my-2">
               <MDBCard
                 className="card-image"
                 style={{
@@ -155,7 +155,7 @@ const Competition = () => {
                 </div>
               </MDBCard>
             </MDBCol>
-            <MDBCol md="4" className="my-3">
+            <MDBCol lg="4" className="my-2">
               <MDBCard
                 className="card-image"
                 style={{
