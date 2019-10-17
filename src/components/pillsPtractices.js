@@ -61,11 +61,7 @@ const pillsPtractices = () => {
                 05.56.97.43.85
               </a>{" "}
             </li>
-            <li>
-              {" "}
-              Par internet , voir la page{" "}
-              <span className="indigo-text">RESERVATION</span>{" "}
-            </li>
+            <li> Par internet , voir la page RESERVATION</li>
           </ul>
           <p className="grey-text">
             Nos courts extérieurs sont disponibles pour du Loisir chaque jour
@@ -82,11 +78,9 @@ const pillsPtractices = () => {
             des créneaux différents en période et hors période scolaire.
           </p>
           <p className="grey-text">
-            Si vous voulez jouer mais n'avez pas de partenaire,
-            <span className="indigo-text"> Marie Hélène </span>
-            et <span className="indigo-text">Virginie</span> vous en trouvent un
-            et nous sommes en train de constituer un classeur des membres du
-            Club consultable librement par tous{" "}
+            Si vous voulez jouer mais n'avez pas de partenaire, Marie Hélène et
+            Virginie vous en trouvent un et nous sommes en train de constituer
+            un classeur des membres du Club consultable librement par tous{" "}
             <strong>classement par sexe et par niveau de jeu</strong>.
           </p>
         </div>
