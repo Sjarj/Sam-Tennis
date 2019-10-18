@@ -9,7 +9,7 @@ const Streack = () => {
         backgroundImage: `${`url('https://images.unsplash.com/photo-1558365849-6ebd8b0454b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60  )`}`,
       }}
     >
-      <div className="flex-center rgba-teal-strong mask">
+      <div className="flex-center rgba-blue-grey-strong mask">
         <div className="white-text smooth-scroll">
           <MDBAnimation reveal type="fadeIn">
             <h2 className="h2-responsive mb-5">

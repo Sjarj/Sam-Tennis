@@ -19,7 +19,7 @@ const Installations = () => {
                   alt="court de tennis"
                   className="z-depth-1 img-fluid rounded"
                 />
-                <MDBMask overlay="purple-light" className="flex-center" />
+                <MDBMask overlay="pink-light" className="flex-center" />
               </MDBView>
             </div>
 

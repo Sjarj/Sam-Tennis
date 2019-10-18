@@ -33,16 +33,16 @@ class Prices extends Component {
         </MDBAnimation>
         <MDBContainer className="mt-5">
           <MDBRow>
-            <div class="col-lg-6">
-              <div class="row mb-3">
-                <div class="col-md-1 col-2">
-                  <i class="fas fa-book-open purple-pastel fa-2x"></i>
+            <div className="col-lg-6">
+              <div className="row mb-3">
+                <div className="col-md-1 col-2">
+                  <i className="fas fa-book-open purple-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold purple-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold purple-pastel mb-2">
                     Desks for any period
                   </h5>
-                  <p class="grey-text">
+                  <p className="grey-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -50,15 +50,15 @@ class Prices extends Component {
                 </div>
               </div>
 
-              <div class="row mb-3">
-                <div class="col-md-1 col-2">
-                  <i class="fas fa-wifi green-pastel fa-2x"></i>
+              <div className="row mb-3">
+                <div className="col-md-1 col-2">
+                  <i className="fas fa-wifi green-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold green-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold green-pastel mb-2">
                     Fast Internet
                   </h5>
-                  <p class="grey-text">
+                  <p className="grey-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -66,15 +66,15 @@ class Prices extends Component {
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-1 col-2">
-                  <i class="far fa-clock orange-pastel fa-2x"></i>
+              <div className="row">
+                <div className="col-md-1 col-2">
+                  <i className="far fa-clock orange-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold orange-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold orange-pastel mb-2">
                     Access 24/7
                   </h5>
-                  <p class="grey-text mb-0">
+                  <p className="grey-text mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -82,16 +82,16 @@ class Prices extends Component {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="row mb-3">
-                <div class="col-md-1 col-2">
-                  <i class="fas fa-book-open purple-pastel fa-2x"></i>
+            <div className="col-lg-6">
+              <div className="row mb-3">
+                <div className="col-md-1 col-2">
+                  <i className="fas fa-book-open purple-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold purple-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold purple-pastel mb-2">
                     Desks for any period
                   </h5>
-                  <p class="grey-text">
+                  <p className="grey-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -99,15 +99,15 @@ class Prices extends Component {
                 </div>
               </div>
 
-              <div class="row mb-3">
-                <div class="col-md-1 col-2">
-                  <i class="fas fa-wifi green-pastel fa-2x"></i>
+              <div className="row mb-3">
+                <div className="col-md-1 col-2">
+                  <i className="fas fa-wifi green-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold green-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold green-pastel mb-2">
                     Fast Internet
                   </h5>
-                  <p class="grey-text">
+                  <p className="grey-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -115,15 +115,15 @@ class Prices extends Component {
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-1 col-2">
-                  <i class="far fa-clock orange-pastel fa-2x"></i>
+              <div className="row">
+                <div className="col-md-1 col-2">
+                  <i className="far fa-clock orange-pastel fa-2x"></i>
                 </div>
-                <div class="col-md-11 col-10">
-                  <h5 class="font-weight-bold orange-pastel mb-2">
+                <div className="col-md-11 col-10">
+                  <h5 className="font-weight-bold orange-pastel mb-2">
                     Access 24/7
                   </h5>
-                  <p class="grey-text mb-0">
+                  <p className="grey-text mb-0">
                     Lorem ipsum dolor sit amet, consectetur adipisicing.
                     Reprehenderit maiores nam, aperiam minima elit assumenda
                     voluptate velit.
@@ -141,11 +141,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse1"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse1" isOpen={collapseID}>
@@ -173,11 +173,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse2"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse2" isOpen={collapseID}>
@@ -204,11 +204,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse3"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse3" isOpen={collapseID}>
@@ -235,11 +235,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse4"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse4" isOpen={collapseID}>
@@ -266,11 +266,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse5"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse5" isOpen={collapseID}>
@@ -297,11 +297,11 @@ class Prices extends Component {
                   </span>{" "}
                   <i
                     style={{ float: `right` }}
-                    className={
+                    className={` ${
                       collapseID === "collapse6"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
-                    }
+                    } indigo-text`}
                   />
                 </MDBCollapseHeader>
                 <MDBCollapse id="collapse6" isOpen={collapseID}>
