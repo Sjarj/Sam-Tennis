@@ -17,7 +17,7 @@ const Installations = () => {
                 <img
                   src="https://images.unsplash.com/photo-1526307616774-60d0098f7642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=472&w=711&q=60"
                   alt="court de tennis"
-                  className="z-depth-1 img-fluid"
+                  className="z-depth-1 img-fluid rounded"
                 />
                 <MDBMask overlay="purple-light" className="flex-center" />
               </MDBView>
