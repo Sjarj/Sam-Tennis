@@ -1,5 +1,5 @@
 import React from "react"
-import illustrationTennisman from "../images/tennis_man.png"
+import IllustrationTennisMan from "../images/tennis_man.png"
 
 const Loisir = () => {
   return (
@@ -14,7 +14,7 @@ const Loisir = () => {
       <div className="row">
         <div className="col-md-5">
           <img
-            src={illustrationTennisman}
+            src={IllustrationTennisMan}
             className="w-100"
             alt="tennis girl"
           />

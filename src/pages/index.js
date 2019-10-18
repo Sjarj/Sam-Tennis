@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Practices from "../components/practices"
 import SliderTeam from "../components/sliderTeam"
-import TabPrices from "../components/tabPrices"
+import Prices from "../components/prices"
 import CollapseReservation from "../components/collapseReservetion"
 import PillsInscription from "../components/pillsInscription"
 import Installations from "../components/Installations"
@@ -22,7 +22,7 @@ const IndexPage = () => (
         <hr className="between-sections" />
         <Practices />
         <hr className="between-sections" />
-        <TabPrices />
+        <Prices />
         <hr className="between-sections" />
         <News />
         <hr className="between-sections" />

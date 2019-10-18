@@ -24,6 +24,7 @@ const Contact = () => {
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
+                allowFullScreen=""
               />
             </div>
           </div>
