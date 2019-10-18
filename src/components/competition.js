@@ -47,7 +47,7 @@ const Competition = () => {
               Équipes Masculines 3ème et 4ème Série en Championnat de Gironde.
             </li>
             <li>
-              Équipes Messieurs [35, 45, 55, 65 ans] en Interclubs régionaux.
+              Équipes Messieurs 35, 45, 55, 65 ans en Interclubs régionaux.
             </li>
             <li>Équipes féminines 4ème série dans Les Raquettes F.F.T.</li>
             <li className="mt-3">
