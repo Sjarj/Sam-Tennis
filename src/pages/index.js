@@ -10,6 +10,7 @@ import Installations from "../components/Installations"
 import Streack from "../components/streack"
 import News from "../components/news"
 import Contact from "../components/contact"
+import CompetitionIndividuelles from "../components/competionIndividuelles"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,9 @@ const IndexPage = () => (
         <SliderTeam />
         <hr className="between-sections" />
         <Practices />
+      </div>
+      <CompetitionIndividuelles />
+      <div className="container">
         <hr className="between-sections" />
         <Prices />
         <hr className="between-sections" />

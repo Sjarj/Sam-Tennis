@@ -1,7 +1,7 @@
 import React from "react"
 import { MDBAnimation } from "mdbreact"
 import Loisir from "./loisir"
-import Competition from "./competition"
+import CompetitionEquipes from "./competitionEquipes"
 import Enseignement from "./enseignement"
 
 const pillsPtractices = () => {
@@ -21,7 +21,7 @@ const pillsPtractices = () => {
         </p>
       </MDBAnimation>
       <Loisir />
-      <Competition />
+      <CompetitionEquipes />
       <Enseignement />
     </section>
   )

@@ -1,14 +1,6 @@
 import React from "react"
-import {
-  MDBCard,
-  MDBCardTitle,
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
-} from "mdbreact"
 
-const Competition = () => {
+const CompetitionEquipes = () => {
   return (
     <>
       <h5
@@ -68,7 +60,7 @@ const Competition = () => {
         </div>
       </div>
       {/* COMPETITION INDIVIDUELLE */}
-      <h5
+      {/* <h5
         className="text-center dark-grey-text text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
         data-wow-delay="0.2s"
       >
@@ -190,9 +182,9 @@ const Competition = () => {
             </MDBCol>
           </MDBRow>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
 
-export default Competition
+export default CompetitionEquipes
