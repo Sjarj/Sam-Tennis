@@ -19,6 +19,9 @@ const Layout = ({ children }) => {
           .carousel .btn-floating {
             background-color: rgba(96, 125, 139, 0.7) !important;
           }
+          .card-header{
+            background-color: white;
+          }
           #practice li:before {
             content: '✔';
             margin-left: -1em;

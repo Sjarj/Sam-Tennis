@@ -157,7 +157,7 @@ const Competition = () => {
             </MDBCol>
             <MDBCol lg="4" className="my-2">
               <MDBCard
-                className="card-image"
+                className="card-image "
                 style={{
                   backgroundImage:
                     "url('https://images.unsplash.com/photo-1465125672495-63cdc2fa22ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
