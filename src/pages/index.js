@@ -25,7 +25,6 @@ const IndexPage = () => (
       </div>
       <CompetitionIndividuelles />
       <div className="container">
-        <hr className="between-sections" />
         <Prices />
         <hr className="between-sections" />
         <News />
