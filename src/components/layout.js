@@ -19,13 +19,19 @@ const Layout = ({ children }) => {
           .carousel .btn-floating {
             background-color: rgba(96, 125, 139, 0.7) !important;
           }
-          .card-header{
+          .card-header {
             background-color: white;
           }
           #practice li:before {
-            content: '✔';
+            content: "✔";
             margin-left: -1em;
-            margin-right: .5rem;
+            margin-right: 0.5rem;
+          }
+          .tarifs li:before {
+            content: "✔";
+            margin-left: -1em;
+            margin-right: 0.5rem;
+          }
         `}
       />
       <Header />

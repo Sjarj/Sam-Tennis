@@ -49,9 +49,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Philippe BANOS</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
-                        Président
-                      </h5>
+                      <h5 className="blue- font-weight-bolder">Président</h5>
                     </div>
 
                     <div className="col-md-4 mb-5">
@@ -63,9 +61,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Catherine TOULOUSE</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
-                        Trésorière
-                      </h5>
+                      <h5 className="blue- font-weight-bolder">Trésorière</h5>
                     </div>
 
                     <div className="col-md-4 mb-5">
@@ -77,9 +73,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Stéphanie THOMAS</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
-                        Secrétaire
-                      </h5>
+                      <h5 className="blue- font-weight-bolder">Secrétaire</h5>
                     </div>
                   </MDBCarouselItem>
                   <MDBCarouselItem itemId="2">
@@ -92,7 +86,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text"> Virginie CLERMONTEL</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue- font-weight-bolder">
                         Administratifs
                       </h5>
                     </div>
@@ -105,7 +99,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Marie-Hélène DROUET </h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue- font-weight-bolder">
                         Administratifs
                       </h5>
                     </div>
@@ -118,10 +112,10 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text"> Michel PONTICO </h4>
-                      <h5 className="blue-grey-text font-weight-bolder ">
+                      <h5 className="blue- font-weight-bolder ">
                         Directeur Sportif
                       </h5>
-                      <a href="tel:+330619644906" className="blue-grey-text">
+                      <a href="tel:+330619644906" className="blue-">
                         {" "}
                         06.19.64.49.06
                       </a>
@@ -137,10 +131,10 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text"> Luc FINOËL</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue- font-weight-bolder">
                         Coach sportif
                       </h5>
-                      <a href="tel:+330683449647" className="blue-grey-text">
+                      <a href="tel:+330683449647" className="blue-">
                         06.83.44.96.47
                       </a>
                     </div>
@@ -153,10 +147,10 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Benjamin CATTAN</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue- font-weight-bolder">
                         Coach sportif
                       </h5>
-                      <a href="tel:+330659361976" className="blue-grey-text">
+                      <a href="tel:+330659361976" className="blue-">
                         06.59.36.19.76
                       </a>
                     </div>
@@ -169,7 +163,7 @@ const SliderTeam = () => {
                         />
                       </div>
                       <h4 className="indigo-text">Mélissa LIGNE</h4>
-                      <h5 className="blue-grey-text font-weight-bolder">
+                      <h5 className="blue- font-weight-bolder">
                         Coach sportif
                       </h5>
                     </div>

@@ -4,7 +4,7 @@ const CompetitionEquipes = () => {
   return (
     <>
       <h5
-        className="text-center dark-grey-text text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
+        className="text-center dark- text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
         data-wow-delay="0.2s"
       >
         <strong>Compétitions par équipes</strong>
@@ -15,7 +15,7 @@ const CompetitionEquipes = () => {
           <hr className="line" />
 
           <h5
-            className="text-left dark-grey-text text-center font-weight-bold pb-4 wow fadeIn"
+            className="text-left dark- text-center font-weight-bold pb-4 wow fadeIn"
             data-wow-delay="0.2s"
           >
             <em>
@@ -27,7 +27,7 @@ const CompetitionEquipes = () => {
             </em>
           </h5>
 
-          <ul style={{ listStyle: `none` }} className="blue-grey-text">
+          <ul style={{ listStyle: `none` }} className="blue-">
             <li> Equipe Fanion Hommes en Nationale 4</li>
             <li>Equipe Fanion Dames en DSR.</li>
             <li>

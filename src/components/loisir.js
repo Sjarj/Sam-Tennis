@@ -5,7 +5,7 @@ const Loisir = () => {
   return (
     <>
       <h5
-        className="text-center dark-grey-text text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
+        className="text-center dark- text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
         data-wow-delay="0.2s"
       >
         <strong> Loisir</strong>
@@ -24,7 +24,7 @@ const Loisir = () => {
           <hr className="line" />
 
           <h5
-            className="text-left dark-grey-text text-center font-weight-bold pb-4 wow fadeIn"
+            className="text-left dark- text-center font-weight-bold pb-4 wow fadeIn"
             data-wow-delay="0.2s"
           >
             <em>
@@ -36,7 +36,7 @@ const Loisir = () => {
             </em>
           </h5>
 
-          <ul style={{ listStyle: `none` }} className="blue-grey-text">
+          <ul style={{ listStyle: `none` }} className="blue-">
             <li> Sur place au Club House</li>
             <li>
               Par téléphone au :{" "}
@@ -46,7 +46,7 @@ const Loisir = () => {
             </li>
             <li> Par internet , voir la page RESERVATION</li>
           </ul>
-          <p className="grey-text">
+          <p className="">
             Nos courts extérieurs sont disponibles pour du Loisir chaque jour
             toute la journée{" "}
             <strong>
@@ -55,12 +55,12 @@ const Loisir = () => {
             </strong>
             .
           </p>
-          <p className="grey-text">
+          <p className="">
             Nos courts couverts compte tenu de l'école de tennis des courts
             collectifs adultes et jeunes sont disponibles pour le loisir suivant
             des créneaux différents en période et hors période scolaire.
           </p>
-          <p className="grey-text">
+          <p className="">
             Si vous voulez jouer mais n'avez pas de partenaire, Marie Hélène et
             Virginie vous en trouvent un et nous sommes en train de constituer
             un classeur des membres du Club consultable librement par tous{" "}
