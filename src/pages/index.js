@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Practices from "../components/practices"
 import SliderTeam from "../components/sliderTeam"
 import Prices from "../components/prices"
-import CollapseReservation from "../components/collapseReservetion"
+import Reservation from "../components/reservetion"
 import PillsInscription from "../components/pillsInscription"
 import Installations from "../components/Installations"
 import Streack from "../components/streack"
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <hr className="between-sections" />
         <News />
         <hr className="between-sections" />
-        <CollapseReservation />
+        <Reservation />
         <hr className="between-sections" />
         <PillsInscription />
         <hr className="between-sections" />
