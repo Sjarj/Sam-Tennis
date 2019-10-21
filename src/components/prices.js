@@ -14,7 +14,7 @@ import {
 
 class Prices extends Component {
   state = {
-    collapseID: "collapse1",
+    collapseID: "",
   }
 
   toggleCollapse = collapseID => () =>
