@@ -55,7 +55,7 @@ class Prices extends Component {
                 </div>
                 <div className="col-md-11 col-10">
                   <h5 className="font-weight-bold blue-text mb-2">
-                    Cotisation vacanaces
+                    Cotisation vacances
                   </h5>
 
                   <ul style={{ listStyle: `none` }} className="pl-0">
