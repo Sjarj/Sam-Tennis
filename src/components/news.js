@@ -29,12 +29,14 @@ const News = () => {
                 | 1 JUILLET 2019
               </a>
             </h6>
-            <h4 className="font-weight-bold light-blue-text mb-3">
+            <h4 className="font-weight-bold indigo-text mb-3">
               Assemblé Général
             </h4>
             <p className="-3 font-thin" align="justify">
               Elle aura lieu le{" "}
-              <span className="red-text">vendredi 5 juillet 2019 à 19:00 </span>{" "}
+              <strong className="pink-text">
+                vendredi 5 juillet 2019 à 19:00{" "}
+              </strong>{" "}
               au siège du Club 60 Avenue du Truc à Mérignac.
             </p>
             <ul>
@@ -66,16 +68,16 @@ const News = () => {
                 | 1 SEPTEMBRE 2019
               </a>
             </h6>
-            <h4 className="mb-3 font-weight-bold light-blue-text">
+            <h4 className="mb-3 font-weight-bold indigo-text">
               Tournois Internes
             </h4>
             <ul>
               <li>
                 {" "}
                 <p className="-3 font-thin" align="justify">
-                  <span className="red-text">
+                  <strong className="pink-text">
                     Qualificatif au trophée Perrier :
-                  </span>{" "}
+                  </strong>{" "}
                   homologué, de mi Octobre à mi Décembre. Tournoi de simples,
                   réservé aux : non classés, 4ème série et 3ème série jusqu'à
                   15/4.
@@ -84,11 +86,11 @@ const News = () => {
               <li>
                 {" "}
                 <p className="-3 font-thin" align="justify">
-                  <span className="red-text">
+                  <strong className="pink-text">
                     Tournoi interne par niveau de classement :
-                  </span>{" "}
+                  </strong>{" "}
                   défis entre les adhérents du{" "}
-                  <span className="light-blue-text">SAM</span>, au printemps.
+                  <span className="indigo-text">SAM</span>, au printemps.
                   Tournoi de simples, ouvert à tous les adhérents du Club Jeunes
                   et Adultes.
                 </p>
@@ -117,15 +119,15 @@ const News = () => {
                 | 1 AU 15 SEPTEMBRE 2019
               </a>
             </h6>
-            <h4 className="mb-3 light-blue-text font-weight-bold pb-3">
+            <h4 className="mb-3 indigo-text font-weight-bold pb-3">
               Tournois Open
             </h4>
             <ul>
               <li>
                 <p className="-3 font-thin" align="justify">
-                  <span className="red-text">
+                  <strong className="pink-text">
                     Tournoi de Jeunes du SAM Tennis :
-                  </span>{" "}
+                  </strong>{" "}
                   Durant la première quinzaine de Septembre [du 25 août au 8
                   Septembre 2018]. Tournoi de simples. Ouvert aux joueurs et
                   joueuses 9/10 ans 11/12 ans 13/14 ans et 15/16 ans avec
@@ -134,19 +136,19 @@ const News = () => {
               </li>
               <li>
                 <p className="-3 font-thin" align="justify">
-                  <span className="red-text"> Bon Vivre :</span> les 2ème et
-                  3ème semaine de Janvier [du 4 au 21 Janvier 2018]. Tournoi de
-                  simples, réservé aux joueurs et joueuses de plus de 35 ans, de
-                  non classés à 4/6 avec catégories suivants les âges : 35 SD,
-                  35, 45, 55, 60, 65, 70, 75 ans SM.
+                  <strong className="pink-text"> Bon Vivre :</strong> les 2ème
+                  et 3ème semaine de Janvier [du 4 au 21 Janvier 2018]. Tournoi
+                  de simples, réservé aux joueurs et joueuses de plus de 35 ans,
+                  de non classés à 4/6 avec catégories suivants les âges : 35
+                  SD, 35, 45, 55, 60, 65, 70, 75 ans SM.
                 </p>
               </li>
               <li>
                 <p className="-3 font-thin" align="justify">
-                  <span className="red-text">Open du SAM Tennis </span> durant
-                  les vacances scolaires de printemps. Tournoi de simples.
-                  Ouverts à tous les joueurs et joueuses licenciés de non classé
-                  à 1ère série.
+                  <strong className="pink-text">Open du SAM Tennis </strong>{" "}
+                  durant les vacances scolaires de printemps. Tournoi de
+                  simples. Ouverts à tous les joueurs et joueuses licenciés de
+                  non classé à 1ère série.
                 </p>
               </li>
             </ul>
