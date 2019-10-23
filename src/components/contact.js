@@ -32,15 +32,12 @@ const Contact = () => {
           <div className="col-md-4 mt-5">
             <ul className="contact-icons list-unstyled text-center">
               <li>
-                <i
-                  className="fas fa-map-marker-alt fa-2x"
-                  style={{ color: `red` }}
-                ></i>
+                <i className="fas fa-map-marker-alt fa-2x pink-text"></i>
                 <p>60 Avenue du Truc, 33700 Mérignac</p>
               </li>
 
               <li>
-                <i className="fas fa-phone fa-2x" style={{ color: `blue` }}></i>
+                <i className="fas fa-phone fa-2x indigo-text"></i>
                 <p>
                   {" "}
                   <a href="tel:+330556974385" style={{ color: `black` }}>

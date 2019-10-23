@@ -140,7 +140,7 @@ class Reservation extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <MDBIcon far icon="clone" className="left" /> Faite une
+                      <MDBIcon far icon="clone" className="left" /> Faites une
                       reservation
                     </MDBBtn>
                   </div>

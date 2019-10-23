@@ -5,8 +5,8 @@ import Practices from "../components/practices"
 import SliderTeam from "../components/sliderTeam"
 import Prices from "../components/prices"
 import Reservation from "../components/reservetion"
-import PillsInscription from "../components/pillsInscription"
-import Installations from "../components/Installations"
+import Inscription from "../components/inscription"
+import Installations from "../components/installations"
 import Streack from "../components/streack"
 import News from "../components/news"
 import Contact from "../components/contact"
@@ -31,7 +31,7 @@ const IndexPage = () => (
         <hr className="between-sections" />
         <Reservation />
         <hr className="between-sections" />
-        <PillsInscription />
+        <Inscription />
         <hr className="between-sections" />
         <Contact />
       </div>
