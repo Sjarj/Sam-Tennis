@@ -8,7 +8,7 @@ import {
   MDBRow,
 } from "mdbreact"
 
-const SliderTeam = () => {
+const Team = () => {
   return (
     <section id="team" className="section team-section pt-3">
       <MDBAnimation reveal type="fadeIn">
@@ -178,4 +178,4 @@ const SliderTeam = () => {
   )
 }
 
-export default SliderTeam
+export default Team
