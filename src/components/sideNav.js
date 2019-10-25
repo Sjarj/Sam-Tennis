@@ -4,11 +4,12 @@ import {
   MDBSideNavCat,
   MDBSideNavNav,
   MDBSideNav,
-  // MDBSideNavLink,
   MDBContainer,
   MDBRow,
   MDBBtn,
 } from "mdbreact"
+import logo from "../images/logo.jpg"
+import { Link } from "gatsby"
 
 class SideNavPage extends React.Component {
   state = {
@@ -30,49 +31,66 @@ class SideNavPage extends React.Component {
             gradient="purple"
             className="pr-4 pl-4 rounded"
             onClick={this.handleToggle}
-            style={{ zIndex: 1, marginTop: `2rem`, marginLeft: `2rem` }}
+            style={{
+              zIndex: 1,
+              marginTop: `2rem`,
+              marginLeft: `2rem`,
+              position: `fixed`,
+            }}
           >
             <MDBIcon icon="bars" size="2x" className="m-0 p-0" />
           </MDBBtn>
         </MDBRow>
         <MDBSideNav
-          logo="http://www.sam-tennis.com/images/template/logotype_sam_tennis.gif"
+          logo={logo}
           hidden
           triggerOpening={isOpen}
           breakWidth={1300}
+          className="side-nav-light"
         >
           <MDBSideNavNav>
-            <MDBSideNavCat
-              name="Submit blog"
-              id="submit-blog"
-              icon="chevron-right"
-            >
-              {/* {/* <MDBSideNavLink>Submit listing</MDBSideNavLink> */} */}
-              {/* {/* <MDBSideNavLink>Registration form</MDBSideNavLink> */} */}
+            <span className="nav-link">
+              <Link to="/">Accueil</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Installation</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Équipe</Link>
+            </span>
+
+            <MDBSideNavCat name="Pratiques" id="practices" icon="">
+              <span className="nav-link">
+                <Link to="/">Loisir</Link>
+              </span>
+              <span className="nav-link">
+                <Link to="/">Compétition par équipe</Link>
+              </span>
+              <span className="nav-link">
+                <Link to="/">Enseignement</Link>
+              </span>
+              <span className="nav-link">
+                <Link to="/">Compétition individuelle</Link>
+              </span>
             </MDBSideNavCat>
-            <MDBSideNavCat
-              name="Instruction"
-              id="instruction"
-              iconRegular
-              icon="hand-pointer"
-              href="#"
-            >
-              {/* {/* <MDBSideNavLink>For bloggers</MDBSideNavLink> */} */}
-              {/* {/* <MDBSideNavLink>For authors</MDBSideNavLink> */} */}
-            </MDBSideNavCat>
-            <MDBSideNavCat name="About" id="about" icon="eye">
-              {/* {/* <MDBSideNavLink>Instruction</MDBSideNavLink> */} */}
-              {/* {/* <MDBSideNavLink>Monthly meetings</MDBSideNavLink> */} */}
-            </MDBSideNavCat>
-            <MDBSideNavCat
-              name="Contact me"
-              id="contact-me"
-              iconRegular
-              icon="envelope"
-            >
-              {/* {/* <MDBSideNavLink>FAQ</MDBSideNavLink> */} */}
-              {/* {/* <MDBSideNavLink>Write a message</MDBSideNavLink> */} */}
-            </MDBSideNavCat>
+            <span className="nav-link">
+              <Link to="/">tarifs</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Blog</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Réservation</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Inscription</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Contact</Link>
+            </span>
+            <span className="nav-link">
+              <Link to="/">Partenaires</Link>
+            </span>
           </MDBSideNavNav>
         </MDBSideNav>
       </MDBContainer>
