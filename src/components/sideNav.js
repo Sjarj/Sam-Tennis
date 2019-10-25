@@ -36,35 +36,11 @@ class SideNavPage extends React.Component {
           </MDBBtn>
         </MDBRow>
         <MDBSideNav
-          logo="https://mdbootstrap.com/img/logo/mdb-transparent.png"
+          logo="http://www.sam-tennis.com/images/template/logotype_sam_tennis.gif"
           hidden
           triggerOpening={isOpen}
           breakWidth={1300}
         >
-          <li>
-            <ul className="social">
-              <li>
-                <a href="#!">
-                  <MDBIcon fab icon="facebook-f" />
-                </a>
-              </li>
-              <li>
-                <a href="#!">
-                  <MDBIcon fab icon="pinterest" />
-                </a>
-              </li>
-              <li>
-                <a href="#!">
-                  <MDBIcon fab icon="google-plus-g" />
-                </a>
-              </li>
-              <li>
-                <a href="#!">
-                  <MDBIcon fab icon="twitter" />
-                </a>
-              </li>
-            </ul>
-          </li>
           <MDBSideNavNav>
             <MDBSideNavCat
               name="Submit blog"
