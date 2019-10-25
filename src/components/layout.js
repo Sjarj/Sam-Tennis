@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
             background-color: rgba(96, 125, 139, 0.7) !important;
           }
           .card-header {
-            background-color: white;
+            background-color: white !important;
           }
           #practice li:before {
             content: "✔";

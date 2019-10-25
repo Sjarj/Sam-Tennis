@@ -110,10 +110,7 @@ class Prices extends Component {
             <MDBCol lg="6">
               <MDBAnimation reveal type="fadeIn" delay="0.6">
                 <MDBCollapseHeader onClick={this.toggleCollapse("collapse1")}>
-                  <span
-                    className="indigo-text font-weight-bolder"
-                    style={{ backgroundColor: `white` }}
-                  >
+                  <span className="indigo-text font-weight-bolder">
                     <em>TARIFS 2019 - 2020</em>
                   </span>{" "}
                   {collapseID === "collapse1" ? (
@@ -157,7 +154,10 @@ class Prices extends Component {
                   </MDBCardBody>
                 </MDBCollapse>
 
-                <MDBCollapseHeader onClick={this.toggleCollapse("collapse2")}>
+                <MDBCollapseHeader
+                  onClick={this.toggleCollapse("collapse2")}
+                  style={{ backgroundColor: "red" }}
+                >
                   <span className="indigo-text font-weight-bolder">
                     {" "}
                     <em>ÉCOLE DE TENNIS 2019-2020</em>
