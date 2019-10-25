@@ -49,47 +49,94 @@ class SideNavPage extends React.Component {
           className="side-nav-light"
         >
           <MDBSideNavNav>
-            <span className="nav-link">
-              <Link to="/">Accueil</Link>
+            <span className="nav-link ">
+              <Link to="/" className="font-weight-bolder indigo-text">
+                Accueil
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Installation</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Installation
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Équipe</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Équipe
+              </Link>
             </span>
 
-            <MDBSideNavCat name="Pratiques" id="practices" icon="">
+            <MDBSideNavCat
+              name="Pratiques"
+              id="practices"
+              icon="fas fa-table-tennis"
+              className="font-weight-bolder indigo-text"
+            >
               <span className="nav-link">
-                <Link to="/">Loisir</Link>
+                <Link
+                  className="font-weight-bolder indigo-text"
+                  to="/"
+                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
+                >
+                  Loisir
+                </Link>
               </span>
               <span className="nav-link">
-                <Link to="/">Compétition par équipe</Link>
+                <Link
+                  className="font-weight-bolder indigo-text"
+                  to="/"
+                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
+                >
+                  Compétition par équipe
+                </Link>
               </span>
               <span className="nav-link">
-                <Link to="/">Enseignement</Link>
+                <Link
+                  className="font-weight-bolder indigo-text"
+                  to="/"
+                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
+                >
+                  Enseignement
+                </Link>
               </span>
               <span className="nav-link">
-                <Link to="/">Compétition individuelle</Link>
+                <Link
+                  className="font-weight-bolder indigo-text"
+                  to="/"
+                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
+                >
+                  Compétition individuelle
+                </Link>
               </span>
             </MDBSideNavCat>
             <span className="nav-link">
-              <Link to="/">tarifs</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                tarifs
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Blog</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Blog
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Réservation</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Réservation
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Inscription</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Inscription
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Contact</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Contact
+              </Link>
             </span>
             <span className="nav-link">
-              <Link to="/">Partenaires</Link>
+              <Link className="font-weight-bolder indigo-text" to="/">
+                Partenaires
+              </Link>
             </span>
           </MDBSideNavNav>
         </MDBSideNav>
