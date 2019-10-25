@@ -10,7 +10,7 @@ import Installations from "../components/installations"
 import Streack from "../components/streack"
 import News from "../components/news"
 import Contact from "../components/contact"
-import CompetitionIndividuelles from "../components/competionIndividuelles"
+import CompetitionIndividuelles from "../components/competiton-individuelles"
 
 const IndexPage = () => (
   <Layout>

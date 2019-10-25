@@ -1,7 +1,7 @@
 import React from "react"
 import { MDBAnimation } from "mdbreact"
 import Loisir from "./loisir"
-import CompetitionEquipes from "./competitionEquipes"
+import CompetitionEquipes from "./competition-equipes"
 import Enseignement from "./enseignement"
 
 const pillsPtractices = () => {
