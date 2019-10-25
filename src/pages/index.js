@@ -6,17 +6,17 @@ import Team from "../components/team"
 import Prices from "../components/prices"
 import Reservation from "../components/reservetion"
 import Inscription from "../components/inscription"
-import Installations from "../components/installations"
 import Streack from "../components/streack"
 import News from "../components/news"
 import Contact from "../components/contact"
 import CompetitionIndividuelles from "../components/competiton-individuelles"
+import Installations from "../components/installations"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <main>
-      {/* <Installations /> */}
+      <Installations />
       <Streack />
       <div className="container">
         <Team />
