@@ -250,7 +250,7 @@ class Prices extends Component {
                       </li>
                       <li>
                         Samedi matin sur les courts couverts de la Roseraie 1
-                        heure par semaine <strong>347 € </strong>// 2 heures par
+                        heure par semaine <strong>347 € </strong> 2 heures par
                         semaine 2 heures par semaine <strong>585 €.</strong>
                       </li>
                       <li>
