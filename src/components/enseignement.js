@@ -6,11 +6,8 @@ const Enseignement = () => {
   return (
     <>
       <MDBAnimation reveal type="fadeIn" delay="0.2">
-        <h5
-          className="text-center dark- text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
-          data-wow-delay="0.2s"
-        >
-          <strong>L'Enseignement</strong>
+        <h5 className="text-center dark- text-uppercase font-weight-bold spacing my-4 py-3 wow fadeIn">
+          <strong id="enseignement">L'Enseignement</strong>
         </h5>
       </MDBAnimation>
       <div className="row">

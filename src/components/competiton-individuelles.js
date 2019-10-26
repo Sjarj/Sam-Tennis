@@ -10,7 +10,7 @@ const CompetitionIndividuelles = () => {
       }}
     >
       <div className="flex-center  rgba-pink-strong mask">
-        <div className="container">
+        <div id="competition-individuelle" className="container">
           <MDBAnimation reveal type="fadeIn" delay="0.2">
             <h3
               className="text-center pb-4 white-text font-weight-bold wow fadeIn h3-responsive"

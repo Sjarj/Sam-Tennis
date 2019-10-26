@@ -7,6 +7,7 @@ import {
   MDBContainer,
   MDBRow,
   MDBBtn,
+  MDBSmoothScroll,
 } from "mdbreact"
 import logo from "../images/logo.jpg"
 import { Link } from "gatsby"
@@ -49,21 +50,24 @@ class SideNavPage extends React.Component {
           className="side-nav-light"
         >
           <MDBSideNavNav>
-            <span className="nav-link ">
-              <Link to="/" className="font-weight-bolder indigo-text">
+            <MDBSmoothScroll to="home" className="nav-link Ripple-parent">
+              <span className="style-link font-weight-bolder indigo-text">
                 Accueil
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll
+              to="installation"
+              className="nav-link Ripple-parent"
+            >
+              <span className="style-link font-weight-bolder indigo-text">
                 Installation
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll to="team" className="nav-link Ripple-parent">
+              <span className="style-link font-weight-bolder indigo-text">
                 Équipe
-              </Link>
-            </span>
+              </span>
+            </MDBSmoothScroll>
 
             <MDBSideNavCat
               name="Pratiques"
@@ -71,73 +75,75 @@ class SideNavPage extends React.Component {
               icon="fas fa-table-tennis"
               className="font-weight-bolder indigo-text"
             >
-              <span className="nav-link">
-                <Link
-                  className="font-weight-bolder indigo-text"
-                  to="/"
-                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
-                >
-                  Loisir
-                </Link>
-              </span>
-              <span className="nav-link">
-                <Link
-                  className="font-weight-bolder indigo-text"
-                  to="/"
-                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
-                >
+              <MDBSmoothScroll
+                to="loisir"
+                className="nav-link Ripple-parent"
+                style={{ backgroundColor: `rgba(255, 255, 255, 0.1) ` }}
+              >
+                <span className="style-link  indigo-text">Loisir</span>
+              </MDBSmoothScroll>
+              <MDBSmoothScroll
+                to="competition-equipe"
+                className="nav-link Ripple-parent"
+                style={{ backgroundColor: `rgba(255, 255, 255, 0.1) ` }}
+              >
+                <span className="style-link indigo-text">
                   Compétition par équipe
-                </Link>
-              </span>
-              <span className="nav-link">
-                <Link
-                  className="font-weight-bolder indigo-text"
-                  to="/"
-                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
-                >
-                  Enseignement
-                </Link>
-              </span>
-              <span className="nav-link">
-                <Link
-                  className="font-weight-bolder indigo-text"
-                  to="/"
-                  style={{ backgroundColor: `rgba(255, 255, 255, 0.1)` }}
-                >
+                </span>
+              </MDBSmoothScroll>
+              <MDBSmoothScroll
+                to="enseignement"
+                className="nav-link Ripple-parent"
+                style={{ backgroundColor: `rgba(255, 255, 255, 0.1) ` }}
+              >
+                <span className="style-link  indigo-text">Enseignement</span>
+              </MDBSmoothScroll>
+              <MDBSmoothScroll
+                to="competition-individuelle"
+                className="nav-link Ripple-parent"
+                style={{ backgroundColor: `rgba(255, 255, 255, 0.1) ` }}
+              >
+                <span className="style-link  indigo-text">
                   Compétition individuelle
-                </Link>
-              </span>
+                </span>
+              </MDBSmoothScroll>
             </MDBSideNavCat>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
-                tarifs
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+            <MDBSmoothScroll to="tarifs" className="nav-link Ripple-parent">
+              <span className="style-link  font-weight-bolder indigo-text">
+                Tarifs
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll to="blog" className="nav-link Ripple-parent">
+              <span className="style-link  font-weight-bolder indigo-text">
                 Blog
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll
+              to="reservation"
+              className="nav-link Ripple-parent"
+            >
+              <span className="style-link  font-weight-bolder indigo-text">
                 Réservation
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll
+              to="inscription"
+              className="nav-link Ripple-parent"
+            >
+              <span className="style-link  font-weight-bolder indigo-text">
                 Inscription
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll to="contact" className="nav-link Ripple-parent">
+              <span className="style-link  font-weight-bolder indigo-text">
                 Contact
-              </Link>
-            </span>
-            <span className="nav-link">
-              <Link className="font-weight-bolder indigo-text" to="/">
+              </span>
+            </MDBSmoothScroll>
+            <MDBSmoothScroll to="contact" className="nav-link Ripple-parent">
+              <span className="style-link  font-weight-bolder indigo-text">
                 Partenaires
-              </Link>
-            </span>
+              </span>
+            </MDBSmoothScroll>
           </MDBSideNavNav>
         </MDBSideNav>
       </MDBContainer>

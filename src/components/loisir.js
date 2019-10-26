@@ -6,11 +6,8 @@ const Loisir = () => {
   return (
     <>
       <MDBAnimation reveal type="fadeIn" delay="0.2s">
-        <h5
-          className="text-center dark-text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
-          data-wow-delay="0.3s"
-        >
-          <strong> Loisir</strong>
+        <h5 className="text-center dark-text-uppercase font-weight-bold spacing my-5 py-4">
+          <strong id="loisir"> Loisir</strong>
         </h5>
       </MDBAnimation>
       <div className="row">

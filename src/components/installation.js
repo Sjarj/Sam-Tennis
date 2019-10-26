@@ -3,10 +3,13 @@ import { MDBAnimation, MDBMask, MDBView } from "mdbreact"
 
 const Installations = () => {
   return (
-    <div className="container ">
-      <section id="installations" className="section py-4">
+    <div className="container">
+      <section className="section py-4">
         <MDBAnimation reveal type="fadeIn">
-          <h1 className="section-heading text-center  my-5 font-weight-bold ">
+          <h1
+            className="section-heading text-center  my-5 font-weight-bold "
+            id="installation"
+          >
             Nos installations
           </h1>
         </MDBAnimation>

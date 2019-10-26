@@ -10,9 +10,12 @@ import {
 
 const Team = () => {
   return (
-    <section id="team" className="section team-section pt-3">
+    <section className="section team-section pt-4">
       <MDBAnimation reveal type="fadeIn">
-        <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
+        <h1
+          className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold"
+          id="team"
+        >
           Notre équipe
         </h1>
       </MDBAnimation>

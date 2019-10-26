@@ -25,9 +25,12 @@ class Prices extends Component {
   render() {
     const { collapseID } = this.state
     return (
-      <MDBContainer id="tarifs">
+      <MDBContainer>
         <MDBAnimation reveal type="fadeIn" delay="0.2">
-          <h1 className="section-heading text-center  my-5 font-weight-bold ">
+          <h1
+            id="tarifs"
+            className="section-heading text-center  mt-5 mb-4 font-weight-bold "
+          >
             TARIFS
           </h1>
         </MDBAnimation>
@@ -43,7 +46,7 @@ class Prices extends Component {
                     <h5 className="font-weight-bold purple-text mb-2">
                       Cours collectifs adulte
                     </h5>
-                    <p className="">
+                    <p>
                       à partir de <strong>19 ans </strong>. Consulter nos
                       éducateurs
                     </p>

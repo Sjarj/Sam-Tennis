@@ -10,28 +10,16 @@ import {
 } from "mdbreact"
 
 class Reservation extends Component {
-  state = {
-    activeItemClassicTabs3: "1",
-  }
-
-  toggleClassicTabs3 = tab => e => {
-    e.preventDefault()
-    if (this.state.activeItemClassicTabs3 !== tab) {
-      this.setState({
-        activeItemClassicTabs3: tab,
-      })
-    }
-  }
-
   render() {
     return (
-      <section id="reservation" className="section mb-4">
+      <section className="section mb-4">
         <MDBContainer>
-          <MDBAnimation reveal type="fadeIn" delay="0.2">
+          <MDBAnimation id="reservation" reveal type="fadeIn" delay="0.2">
             <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
               Réservation
             </h1>
           </MDBAnimation>
+          <div></div>
           <MDBAnimation reveal type="fadeIn" delay="0.2s">
             <p className="text-center w-responsive mx-auto  my-5 lead">
               La réservation des courts extérieurs comme des courts couverts,

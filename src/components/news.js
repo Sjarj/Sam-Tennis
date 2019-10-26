@@ -5,7 +5,10 @@ const News = () => {
   return (
     <section id="news" className="section news-section">
       <MDBAnimation reveal type="fadeIn" delay="0.2s">
-        <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
+        <h1
+          id="blog"
+          className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold"
+        >
           Nouvelles du club
         </h1>
       </MDBAnimation>

@@ -9,7 +9,7 @@ const CompetitionEquipes = () => {
           className="text-center dark- text-uppercase font-weight-bold spacing my-5 py-4 wow fadeIn"
           data-wow-delay="0.2s"
         >
-          <strong>Compétitions par équipes</strong>
+          <strong id="competition-equipe">Compétitions par équipes</strong>
         </h5>
       </MDBAnimation>
       <div className="row">

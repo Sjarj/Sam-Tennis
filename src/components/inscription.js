@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact"
 
 const Inscription = () => {
   return (
-    <section id="inscription" className="section mb-4">
+    <section id="inscription" className="section">
       <MDBAnimation reveal type="fadeIn">
         <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
           Inscription
