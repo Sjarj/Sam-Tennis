@@ -51,7 +51,7 @@ class SideNavPage extends React.Component {
         >
           <MDBSideNavNav>
             <MDBSmoothScroll to="home" className="nav-link Ripple-parent">
-              <span className="style-link font-weight-bolder indigo-text">
+              <span className="ml-4 style-link font-weight-bolder indigo-text">
                 Accueil
               </span>
             </MDBSmoothScroll>
@@ -59,12 +59,12 @@ class SideNavPage extends React.Component {
               to="installation"
               className="nav-link Ripple-parent"
             >
-              <span className="style-link font-weight-bolder indigo-text">
+              <span className="ml-4 style-link font-weight-bolder indigo-text">
                 Installation
               </span>
             </MDBSmoothScroll>
             <MDBSmoothScroll to="team" className="nav-link Ripple-parent">
-              <span className="style-link font-weight-bolder indigo-text">
+              <span className="ml-4  style-link font-weight-bolder indigo-text">
                 Équipe
               </span>
             </MDBSmoothScroll>
@@ -109,12 +109,12 @@ class SideNavPage extends React.Component {
               </MDBSmoothScroll>
             </MDBSideNavCat>
             <MDBSmoothScroll to="tarifs" className="nav-link Ripple-parent">
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Tarifs
               </span>
             </MDBSmoothScroll>
             <MDBSmoothScroll to="blog" className="nav-link Ripple-parent">
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Blog
               </span>
             </MDBSmoothScroll>
@@ -122,7 +122,7 @@ class SideNavPage extends React.Component {
               to="reservation"
               className="nav-link Ripple-parent"
             >
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Réservation
               </span>
             </MDBSmoothScroll>
@@ -130,17 +130,17 @@ class SideNavPage extends React.Component {
               to="inscription"
               className="nav-link Ripple-parent"
             >
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Inscription
               </span>
             </MDBSmoothScroll>
             <MDBSmoothScroll to="contact" className="nav-link Ripple-parent">
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Contact
               </span>
             </MDBSmoothScroll>
             <MDBSmoothScroll to="contact" className="nav-link Ripple-parent">
-              <span className="style-link  font-weight-bolder indigo-text">
+              <span className="ml-4 style-link  font-weight-bolder indigo-text">
                 Partenaires
               </span>
             </MDBSmoothScroll>
