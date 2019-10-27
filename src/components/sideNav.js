@@ -10,7 +10,7 @@ import {
   MDBSmoothScroll,
 } from "mdbreact"
 import logo from "../images/logo.jpg"
-import { Link } from "gatsby"
+
 
 class SideNavPage extends React.Component {
   state = {
