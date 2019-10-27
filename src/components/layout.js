@@ -20,9 +20,6 @@ const Layout = ({ children }) => {
           .carousel .btn-floating {
             background-color: rgba(96, 125, 139, 0.7) !important;
           }
-          .card-header {
-            background-color: white !important;
-          }
           #practice li:before {
             content: "✔";
             margin-left: -1em;
@@ -32,6 +29,14 @@ const Layout = ({ children }) => {
             content: "✔";
             margin-left: -1em;
             margin-right: 0.5rem;
+          }
+          .dropdown .dropdown-menu .dropdown-item:hover {
+            background-color: #e91e63 !important;
+          }
+          @media (max-width: 992px) {
+            .navbar {
+              background-color: #e91e63;
+            }
           }
         `}
       />
