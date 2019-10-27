@@ -1,6 +1,5 @@
 import React from "react"
 import { MDBAnimation } from "mdbreact"
-import SideNavPage from "./sideNav"
 import Navbar from "./navbar"
 
 const Header = () => {
