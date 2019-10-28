@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
           <div className="flex-center">
             <ul className="list-unstyled">
               <li>
-                <MDBAnimation reveal type="fadeIn" delay="0.2s">
+                <MDBAnimation type="fadeIn" delay="0.2s">
                   <h3 className="h3-responsive white-text mt-4">
                     <i className="fas fa-quote-left" aria-hidden="true"></i> On
                     gagne plus avec le coeur, avec la volonté qu'avec autre
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
                 </MDBAnimation>
               </li>
               <li>
-                <MDBAnimation reveal type="fadeIn" delay="0.2s">
+                <MDBAnimation type="fadeIn" delay="0.2s">
                   <h4 className="font-italic mt-4 white-text">
                     ~ Rafael Nadal
                   </h4>

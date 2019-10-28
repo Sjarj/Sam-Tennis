@@ -3,13 +3,16 @@ import { MDBAnimation } from "mdbreact"
 
 const Contact = () => {
   return (
-    <section className="section mb-4">
+    <section className="section">
       <MDBAnimation reveal type="fadeIn">
-        <h1 className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold">
+        <h1
+          id="contact"
+          className="section-heading text-center mb-5 mt-5 pt-4 font-weight-bold"
+        >
           Contact
         </h1>
       </MDBAnimation>
-      <MDBAnimation id="contact" reveal type="fadeIn" delay="0.4s">
+      <MDBAnimation reveal type="fadeIn" delay="0.4s">
         <div className="row">
           <div className="col-md-8 mb-5">
             <div
