@@ -1,6 +1,5 @@
 import React from "react"
 import { MDBAnimation } from "mdbreact"
-import Navbar from "./navbar"
 
 const Header = () => {
   return (
@@ -16,7 +15,6 @@ const Header = () => {
           backgroundPosition: `center`,
         }}
       >
-        <Navbar />
         <div className="mask rgba-black-strong">
           <div className="container h-100 d-flex justify-content-center align-items-center">
             <div className="row smooth-scroll">

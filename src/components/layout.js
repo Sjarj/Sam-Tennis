@@ -8,9 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Global, css } from "@emotion/core"
-
 import { MDBAnimation } from "mdbreact"
-import Header from "./header"
+import Navbar from "../components/navbar"
 
 const Layout = ({ children }) => {
   return (
@@ -40,7 +39,7 @@ const Layout = ({ children }) => {
           }
         `}
       />
-      <Header />
+      <Navbar />
       <main>{children}</main>
       <footer>
         <div className="container-fluid py-5" style={{ background: `#b1bace` }}>

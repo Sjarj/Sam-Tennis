@@ -11,11 +11,13 @@ import News from "../components/news"
 import Contact from "../components/contact"
 import CompetitionIndividuelles from "../components/competiton-individuelles"
 import Installations from "../components/installation"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <main>
+      <Header />
       <Installations />
       <Streack />
       <div className="container">
