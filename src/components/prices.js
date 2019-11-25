@@ -375,7 +375,7 @@ class Prices extends Component {
             </MDBCol>
             <div className="col-lg-6">
               <MDBAnimation reveal type="fadeIn" delay="0.6">
-                <MDBView>
+                <MDBView className="mt-2">
                   <img
                     src="https://images.unsplash.com/photo-1570192164067-6f2d28702ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
                     alt="court de tennis"
