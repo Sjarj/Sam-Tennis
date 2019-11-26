@@ -1,20 +1,14 @@
 import React from "react"
-import { MDBAnimation } from "mdbreact"
+import { MDBAnimation, MDBParallax } from "mdbreact"
 
 const Header = () => {
   return (
     <header>
-      <div
-        id="home"
-        className="view jarallax"
-        data-jarallax='{"speed": 0.2}'
-        style={{
-          backgroundImage: `${`url('https://images.unsplash.com/photo-1570192164067-6f2d28702ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')`}`,
-          backgroundRepeat: `no-repeat`,
-          backgroundSize: `cover`,
-          backgroundPosition: `center`,
-        }}
-      >
+      <div id="home" className="view jarallax">
+        <MDBParallax
+          image="https://images.unsplash.com/photo-1570192164067-6f2d28702ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+          speed="0.8"
+        />
         <div className="mask rgba-black-strong">
           <div className="container h-100 d-flex justify-content-center align-items-center">
             <div className="row smooth-scroll">
