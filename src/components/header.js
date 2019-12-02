@@ -4,7 +4,7 @@ import { MDBAnimation, MDBParallax } from "mdbreact"
 const Header = () => {
   return (
     <header>
-      <div id="home" className="view jarallax">
+      <div id="home" className="view ">
         <MDBParallax
           image="https://images.unsplash.com/photo-1570192164067-6f2d28702ae8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
           speed="0.7"
