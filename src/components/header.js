@@ -1,5 +1,5 @@
 import React from "react"
-import { MDBAnimation, MDBParallax } from "mdbreact"
+import { MDBAnimation } from "mdbreact"
 import MDBParallaxWrapper from "./MDBParallaxWrapper"
 
 const Header = () => {

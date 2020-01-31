@@ -12,6 +12,7 @@ import Contact from "../components/contact"
 import CompetitionIndividuelles from "../components/competiton-individuelles"
 import Installations from "../components/installation"
 import Header from "../components/header"
+import Partenaires from "../components/Partenaires"
 
 const IndexPage = () => (
   <Layout>
@@ -36,6 +37,8 @@ const IndexPage = () => (
         <Inscription />
         <hr className="between-sections" />
         <Contact />
+        <hr className="between-sections" />
+        <Partenaires />
       </div>
     </main>
   </Layout>

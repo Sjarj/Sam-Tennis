@@ -114,7 +114,10 @@ class Navbar extends React.Component {
                   Contact
                 </span>
               </MDBSmoothScroll>
-              <MDBSmoothScroll to="contact" className="nav-link Ripple-parent">
+              <MDBSmoothScroll
+                to="partenaires"
+                className="nav-link Ripple-parent"
+              >
                 <span className="style-link  font-weight-bolder text-white">
                   Partenaires
                 </span>
