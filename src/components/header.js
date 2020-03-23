@@ -1,12 +1,17 @@
 import React from "react"
 import { MDBAnimation } from "mdbreact"
-import "../style/parallax.css"
+import { Parallax } from "react-parallax"
 
 const Header = () => {
   return (
     <header>
       <div id="home" className="view ">
-        <div className="parallax">
+        <Parallax
+          blur={2}
+          bgImage={require("../images/header.jpeg")}
+          bgImageAlt="Balle sur un court de tennis"
+          strength={300}
+        >
           <div className="mask rgba-black-strong">
             <div className="container h-100 d-flex justify-content-center align-items-center">
               <div className="row smooth-scroll">
@@ -33,7 +38,8 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+          <div style={{ height: "700px" }} />
+        </Parallax>
       </div>
     </header>
   )
