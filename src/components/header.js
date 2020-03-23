@@ -10,7 +10,7 @@ const Header = () => {
           blur={2}
           bgImage={require("../images/header.jpeg")}
           bgImageAlt="Balle sur un court de tennis"
-          strength={200}
+          strength={300}
         >
           <div className="mask rgba-black-strong">
             <div className="container h-100 d-flex justify-content-center align-items-center">
