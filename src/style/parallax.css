@@ -4,7 +4,7 @@
 
   /* Set a specific height */
   height: 700px;
-  transform: translateZ(10px) scale(1.1);
+  /* transform: translateZ(10px) scale(1.1); */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
